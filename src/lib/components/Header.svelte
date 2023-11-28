@@ -1,5 +1,5 @@
 <script lang="ts">
-    import "$lib/styles/Buttons.css";
+    import "$lib/styles/buttons.css";
     import language from "$lib/stores/language.ts";
 
     let currentLanguage = "en";
