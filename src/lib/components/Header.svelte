@@ -1,27 +1,27 @@
 <script lang="ts">
     import "$lib/styles/buttons.css";
+
+    import english from "$lib/lang/en.json";
+    import nederlands from "$lib/lang/nl.json";
     import language from "$lib/stores/language.ts";
 
     let currentLanguage = "en";
-
-    $: (async() => {
-        language.set(await import(`$lib/lang/${currentLanguage}.json`));
-    })();
+    $: language.set(currentLanguage === "en" ? english : nederlands);
 </script>
 
 <header>
     <h1>Museum Online</h1>
-    <div id="links">
+    <nav>
         <select title="select-lang" id="language-picker-select" bind:value={currentLanguage}>
-            <option lang="en" value="en" selected>EN</option>
+            <option lang="en" value="en">EN</option>
             <option lang="nl" value="nl">NL</option>
         </select>
 
-        <button class="fill-button">{$language?.header?.whatsOn}</button>
-        <button class="fill-button">{$language?.header?.aboutUs}</button>
-        <button class="fill-button">{$language?.header?.contact}</button>
-        <button class="fill-button">{$language?.header?.blog}</button>
-    </div>
+        <button class="fill-button">{$language.header.whatsOn}</button>
+        <button class="fill-button">{$language.header.aboutUs}</button>
+        <button class="fill-button">{$language.header.contact}</button>
+        <button class="fill-button">{$language.header.blog}</button>
+    </nav>
 </header>
 
 <style>
@@ -35,6 +35,7 @@
         align-items: center;
         height: 75px;
         padding: 10px;
+
     }
 
     header :not(div) {
@@ -52,7 +53,7 @@
         }
     }
 
-    #links {
+    nav {
         display: inline-flex;
         justify-content: space-between;
         gap: 20px;

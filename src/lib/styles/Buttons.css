@@ -9,9 +9,11 @@
     padding: 15px;
     position: relative;
     transition: 0.4s ease;
+    z-index: 1;
     
     &:before, &:after {
-        background: white;
+        background-color: white;
+        box-shadow: 0px 0px 10px white;
         transition: 0.3s ease;
         position: absolute;
         content: '';
