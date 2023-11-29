@@ -10,7 +10,10 @@
 </script>
 
 <header>
-    <h1>Museum Online</h1>
+    <img
+        id="logo"
+        alt="logo"
+        src="logo_and_title.png"/>
     <nav>
         <select title="select-lang" id="language-picker-select" bind:value={currentLanguage}>
             <option lang="en" value="en">EN</option>
@@ -25,13 +28,9 @@
 </header>
 
 <style>
-    h1 {
-        margin: 0;
-    }
-
     header {
-        position: sticky;
         top: 0;
+        position: sticky;
         background-color: rgba(0, 0, 0, 0.5);
         backdrop-filter: blur(10px);
         display: flex;
@@ -39,6 +38,12 @@
         align-items: center;
         padding: 15px;
         height: 50px;
+        box-shadow: 0 0 200px 100px black;
+        z-index: 1;
+    }
+
+    #logo {
+        height: 100%
     }
 
     header > * {

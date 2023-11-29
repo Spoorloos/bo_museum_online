@@ -2,7 +2,17 @@
     <title>Museum </title>
 </svelte:head>
 
-<img
-    style="width: 300px; height: 300px;"
-    src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif"
-    alt="not rick astley"/>
+<main>
+</main>
+
+<style>
+    main {
+        position: absolute;
+        width: 100vw;
+        height: calc(100% - 50px);
+        background-image: url("background.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
