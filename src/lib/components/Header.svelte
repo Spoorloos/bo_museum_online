@@ -1,12 +1,12 @@
 <script lang="ts">
     import "$lib/styles/buttons.css";
-
-    import english from "$lib/lang/en.json";
-    import nederlands from "$lib/lang/nl.json";
     import language from "$lib/stores/language.ts";
 
     let currentLanguage = "en";
-    $: language.set(currentLanguage === "en" ? english : nederlands);
+
+    $: (async () => {
+        language.set(await import(`$lib/lang/${currentLanguage}.json`));
+    })();
 </script>
 
 <header>

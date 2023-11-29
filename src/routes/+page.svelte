@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Museum Online</title>
+    <title>Museum </title>
 </svelte:head>
 
 <img
