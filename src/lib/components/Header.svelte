@@ -17,10 +17,10 @@
             <option lang="nl" value="nl">NL</option>
         </select>
 
-        <button class="fill-button">{$language.header.whatsOn}</button>
-        <button class="fill-button">{$language.header.aboutUs}</button>
-        <button class="fill-button">{$language.header.contact}</button>
-        <button class="fill-button">{$language.header.blog}</button>
+        <button class="fill-button" type="button">{$language.header.whatsOn}</button>
+        <button class="fill-button" type="button">{$language.header.aboutUs}</button>
+        <button class="fill-button" type="button">{$language.header.contact}</button>
+        <button class="fill-button" type="button">{$language.header.blog}</button>
     </nav>
 </header>
 
