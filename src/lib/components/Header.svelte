@@ -36,7 +36,7 @@
     }
 
     #logo {
-        height: 70px;
+        height: 50px;
     }
 
     nav {
