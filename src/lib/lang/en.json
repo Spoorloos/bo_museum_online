@@ -1,7 +1,7 @@
 {
     "header": {
-        "whatsOn": "What's on",
-        "aboutUs": "About us",
+        "whats_on": "What's on",
+        "about_us": "About us",
         "contact": "Contact"
     }
 }

@@ -1,29 +1,27 @@
-<script lang="ts">
+<!-- Script -->
+<script>
     import "$lib/styles/buttons.css";
-    import language from "$lib/stores/language.ts";
-	import { slide } from "svelte/transition";
-
-    let currentLanguage = "en";
-
-    $: (async () => {
-        language.set(await import(`$lib/lang/${currentLanguage}.json`));
-    })();
+    import CustomSelect from "./CustomSelect.svelte";
+    import { locale, _ } from "svelte-i18n";
 </script>
 
+<!-- Content -->
 <header>
-    <img id="logo" alt="logo" src="logo_and_title.png" class="fade-slide"/>
-    <nav class="fade-slide">
-        <select title="select-lang" id="language-picker-select" bind:value={currentLanguage}>
-            <option lang="en" value="en">EN</option>
-            <option lang="nl" value="nl">NL</option>
-        </select>
+    <img id="logo" alt="logo" src="img/logo_and_title.png" class="fade-slide"/>
 
-        {#each Object.values($language.header) as head}
-            <button class="fill-button" type="button">{head}</button>
-        {/each}
+    <nav class="fade-slide">
+        <CustomSelect
+            bind:selected={ $locale }
+            options={ [ "en", "nl" ] }
+        />
+
+        <button class="fill-button" type="button">{ $_("header.whats_on") }</button>
+        <button class="fill-button" type="button">{ $_("header.about_us") }</button>
+        <button class="fill-button" type="button">{ $_("header.contact") }</button>
     </nav>
 </header>
 
+<!-- Style -->
 <style>
     header {
         top: 0;
@@ -35,11 +33,10 @@
         align-items: center;
         padding: 15px;
         height: 50px;
-        box-shadow: 0 0 200px 100px black;
     }
 
     #logo {
-        height: 100%
+        height: 70px;
     }
 
     nav {
@@ -47,20 +44,5 @@
         justify-content: space-between;
         gap: 20px;
         height: 100%;
-    }
-
-    #language-picker-select {
-        color: white;
-        background-color: transparent;
-        border: none;
-        border-bottom: thin solid white;
-        font-family: sans-serif;
-        font-weight: bold;
-        outline: none;
-        cursor: pointer;
-
-        & option {
-            background-color: black;
-        }
     }
 </style>
