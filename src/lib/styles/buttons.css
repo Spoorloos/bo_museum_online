@@ -3,28 +3,22 @@
     color: white;
     background-color: transparent;
     border: none;
-    border-bottom: thin solid white;
-    font-family: sans-serif;
-    font-weight: bold;
+    font: bold 13px sans-serif;
     padding: 15px;
     position: relative;
-    transition: 0.4s ease;
-    z-index: 1;
+    transition: 0.3s ease;
     
-    &:before, &:after {
+    &:before {
+        content: '';
         background-color: white;
         box-shadow: 0px 0px 10px white;
         transition: 0.3s ease;
         position: absolute;
-        content: '';
-        z-index: -1;
-    }
-
-    &:before {
-        top: 100%;
+        top: calc(100% - 1px);
         right: 0;
         bottom: 0;
         left: 0;
+        z-index: -1;
     }
 
     &:hover {

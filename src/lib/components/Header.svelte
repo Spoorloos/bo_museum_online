@@ -30,26 +30,30 @@
     }
 
     header {
+        position: sticky;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 75px;
-        padding: 10px;
-
+        padding: 15px;
+        height: 50px;
     }
 
-    header :not(div) {
+    header > * {
+        position: relative;
         animation: slide-in 1s both;
     }
 
     @keyframes slide-in {
         from {
             opacity: 0;
-            margin-bottom: 50px;
+            bottom: 50px;
         }
         to {
             opacity: 1;
-            margin-bottom: 0;
+            bottom: 0;
         }
     }
 
@@ -57,6 +61,7 @@
         display: inline-flex;
         justify-content: space-between;
         gap: 20px;
+        height: 100%;
     }
 
     #language-picker-select {
