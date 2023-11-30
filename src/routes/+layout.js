@@ -6,9 +6,10 @@ register("nl", () => import('$lib/lang/nl.json'))
 
 init({ fallbackLocale: "en", initialLocale: "en" });
 
+// Set prerender
+export const prerender = true;
+
 // Load function
 export async function load() {
     await waitLocale();
 }
-
-export const prerender = true;
