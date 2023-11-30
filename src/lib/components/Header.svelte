@@ -8,7 +8,7 @@
 <!-- Content -->
 <header>
     <a href="/">
-        <img id="logo" alt="logo" src="img/logo_and_title.png" class="fade-slide"/>
+        <img alt="logo" src="img/logo_and_title.png" class="fade-slide"/>
     </a>
 
     <nav class="fade-slide">
