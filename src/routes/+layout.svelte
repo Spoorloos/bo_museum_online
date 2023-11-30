@@ -23,17 +23,18 @@
         padding: 5%;
         height: 100%;
         background-image: url("/img/background.png");
-        background-attachment: fixed;
+        background-position: center center;
         background-repeat: no-repeat;
+        position: relative;
     }
 
     #page-content:before {
         content: "";
         position: absolute;
+        top: 0;
         left: 0;
-        right: 0;
-        top: 80px;
-        bottom: 0;
+        width: 100%;
+        height: 100%;
         background-image: linear-gradient(to bottom, black 0%, transparent 50%);
         background-repeat: no-repeat;
         animation: background-grow 1s both;
