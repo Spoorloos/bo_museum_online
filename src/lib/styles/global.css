@@ -25,6 +25,7 @@ body:before {
     top: 80px;
     bottom: 0;
     background-image: linear-gradient(to bottom, black 0%, transparent 50%);
+    z-index: -1;
 }
 
 /* Animations */

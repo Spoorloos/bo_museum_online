@@ -6,32 +6,41 @@
   
 <!-- Contents -->
 <div class="select-parent">
-    <button class="selector">
-        <span class="selected-item">{ selected.toUpperCase() } ▼</span>
-    </button>
+    <button class="selected" type="menu">{ selected.toUpperCase() } ▼</button>
 
-    <div style="position: relative;">
-        <div class="options">
-            {#each options as option}
-                <button
-                    on:click={ () => void (selected = option) }
-                    class="option"
-                >{ option.toUpperCase() }</button>
-            {/each}
-        </div>
+    <div class="options">
+        {#each options as option}
+            <button
+                class="option"
+                on:click={ () => void (selected = option) }
+            >{ option.toUpperCase() }</button>
+        {/each}
     </div>
 </div>
   
 <!-- Style -->
 <style>
+    .selected {
+        height: calc(100% - 1px);
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 5px 20px;
+        font: bold 13px sans-serif;
+    }
+
     .options {
-        position: absolute;
-        max-height: 0px;
+        position: relative;
+        max-height: 1px;
         width: 100%;
         background-color: white;
         box-shadow: 0px 0px 10px white;
         overflow: hidden;
         transition: max-height 0.45s;
+    }
+
+    .select-parent:hover .options {
+        max-height: 100px;
     }
 
     .option {
@@ -40,33 +49,11 @@
         border: 0;
         width: 100%;
         padding: 10px;
+        font: bold 13px sans-serif;
         transition: background-color 0.3s, color 0.3s;
 
         &:hover {
             background-color: rgba(0, 0, 0, 0.2);
         }
-    }
-
-    .select-parent:hover .options {
-        max-height: 100px;
-    }
-
-    .selector {
-        height: 100%;
-        background-color: transparent;
-        color: white;
-        border: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px 20px;
-        border-color: white;
-        border-bottom: 1px;
-        border-style: solid;
-        font: bold 13px sans-serif;
-    }
-
-    .select-parent:hover .selector {
-        border-style: none;
     }
 </style>

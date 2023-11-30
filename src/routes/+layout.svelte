@@ -7,5 +7,14 @@
 
 <!-- Page -->
 <Header/>
-<slot/>
+<div id="page-content">
+    <slot/>
+</div>
 <Footer/>
+
+<!-- Styles -->
+<style>
+    #page-content {
+        padding: 5%;
+    }
+</style>

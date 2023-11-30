@@ -7,7 +7,9 @@
 
 <!-- Content -->
 <header>
-    <img id="logo" alt="logo" src="img/logo_and_title.png" class="fade-slide"/>
+    <a href="/">
+        <img id="logo" alt="logo" src="img/logo_and_title.png" class="fade-slide"/>
+    </a>
 
     <nav class="fade-slide">
         <CustomSelect
@@ -15,14 +17,26 @@
             options={ [ "en", "nl" ] }
         />
 
-        <button class="fill-button" type="button">{ $_("header.whats_on") }</button>
-        <button class="fill-button" type="button">{ $_("header.about_us") }</button>
-        <button class="fill-button" type="button">{ $_("header.contact") }</button>
+        <a href="/whats-on">
+            <button class="fill-button" type="button">{ $_("header.whats_on") }</button>
+        </a>
+    
+        <a href="/about-us">
+            <button class="fill-button" type="button">{ $_("header.about_us") }</button>
+        </a>
+
+        <a href="contact">
+            <button class="fill-button" type="button">{ $_("header.contact") }</button>
+        </a>
     </nav>
 </header>
 
 <!-- Style -->
 <style>
+    a, button, img {
+        height: 100%;
+    }
+
     header {
         top: 0;
         position: sticky;
@@ -33,10 +47,6 @@
         align-items: center;
         padding: 15px;
         height: 50px;
-    }
-
-    #logo {
-        height: 70px;
     }
 
     nav {
