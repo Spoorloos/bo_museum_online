@@ -12,14 +12,16 @@
 
 <!-- Page -->
 <Header/>
-<div id="page-content">
-    <slot/>
+<div id="shadow-box">
+    <div id="page-content">
+        <slot/>
+    </div>
 </div>
 <Footer/>
 
 <!-- Styles -->
 <style>
-    #page-content {
+    #shadow-box {
         padding: 5%;
         height: 100%;
         background-image: url("/img/background.png");
@@ -28,7 +30,7 @@
         position: relative;
     }
 
-    #page-content:before {
+    #shadow-box:before {
         content: "";
         position: absolute;
         top: 0;
@@ -47,5 +49,10 @@
         to {
             background-size: 100% 100%;
         }
+    }
+
+    #page-content {
+        position: relative;
+        z-index: 2;
     }
 </style>

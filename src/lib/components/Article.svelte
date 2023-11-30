@@ -6,6 +6,7 @@
 
     export let titleSize = "7rem";
     export let direction = "left";
+    export let maxWidth = "75%";
 </script>
 
 <div
@@ -13,6 +14,7 @@
     style={`
         --direction: ${ (direction === "right" || -1) * 50 }px;
         border-${direction}: 1px solid white;
+        max-width: ${maxWidth};
     `}>
 
     <div>
