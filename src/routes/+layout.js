@@ -10,3 +10,5 @@ init({ fallbackLocale: "en", initialLocale: "en" });
 export async function load() {
     await waitLocale();
 }
+
+export const prerender = true;

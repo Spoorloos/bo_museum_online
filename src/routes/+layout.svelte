@@ -5,6 +5,11 @@
     import Footer from "$lib/components/Footer.svelte";
 </script>
 
+<!-- Svelte Head -->
+<svelte:head>
+    <title>Museum Online</title>
+</svelte:head>
+
 <!-- Page -->
 <Header/>
 <div id="page-content">
