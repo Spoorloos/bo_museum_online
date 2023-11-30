@@ -48,6 +48,7 @@
         align-items: center;
         padding: 15px;
         height: 50px;
+        z-index: 1;
     }
 
     nav {

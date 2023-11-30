@@ -25,7 +25,6 @@
         background-image: url("/img/background.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-position: right 0 top 80px;
     }
 
     #page-content:before {
