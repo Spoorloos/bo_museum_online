@@ -1,8 +1,4 @@
 <script>
-	import { onMount } from "svelte";
-	import { cubicOut } from "svelte/easing";
-    import { tweened } from "svelte/motion";
-
     // Attributes
     export let title = "";
     export let content = "";
@@ -10,21 +6,12 @@
 
     export let titleSize = "7rem";
     export let direction = "left";
-
-    // Animation
-    let animation = tweened(0, {
-        duration: 1000,
-        easing: cubicOut
-    });
-
-    onMount(() => void animation.set(1));
 </script>
 
 <div
     class="article"
     style={`
-        opacity: ${ $animation };
-        transform: translateX(${ (direction === "right" || -1) * (50 - $animation * 50) }px);
+        --direction: ${ (direction === "right" || -1) * 50 }px;
         border-${direction}: 1px solid white;
     `}>
 
@@ -44,6 +31,18 @@
         justify-content: space-between;
         gap: 50px;
         padding: 25px;
+        animation: fade-slide 1s both;
+    }
+
+    @keyframes fade-slide {
+        from {
+            opacity: 0;
+            transform: translateX(var(--direction));
+        }
+        to {
+            opacity: 1;
+            transform: none;
+        }
     }
 
     h1 {
