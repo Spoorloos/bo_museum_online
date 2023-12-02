@@ -1,7 +1,8 @@
 <!-- Script -->
 <script>
-    import "$lib/styles/buttons.css";
     import CustomSelect from "./CustomSelect.svelte";
+    import CustomButton from "./CustomButton.svelte";
+
     import { locale, _ } from "svelte-i18n";
     import { base } from "$app/paths";
 </script>
@@ -19,15 +20,15 @@
         />
 
         <a href={base + "/whats-on"}>
-            <button class="fill-button" type="button">{ $_("header.whats_on") }</button>
+            <CustomButton>{ $_("header.whats_on") }</CustomButton>
         </a>
     
         <a href={base + "/about-us"}>
-            <button class="fill-button" type="button">{ $_("header.about_us") }</button>
+            <CustomButton>{ $_("header.about_us") }</CustomButton>
         </a>
 
         <a href={base + "/contact"}>
-            <button class="fill-button" type="button">{ $_("header.contact") }</button>
+            <CustomButton>{ $_("header.contact") }</CustomButton>
         </a>
     </nav>
 </header>
