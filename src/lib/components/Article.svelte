@@ -9,7 +9,7 @@
     export let contentStyle = "";
 </script>
 
-<div class={`article ${direction}`} {style}>
+<div class={`article fade-slide ${direction}`} {style}>
     <div>
         <h1 style={titleStyle}>{title}</h1>
         <p style={contentStyle}>{content}</p>
@@ -23,11 +23,10 @@
 <style>
     .article {
         padding: 25px;
-        animation: fade-slide 1s both;
     }
 
     .article.left {
-        --direction: -50px;
+        --direction: translateX(-50px);
         border-left: 1px solid white;
 
         & h1::first-letter {
@@ -36,16 +35,9 @@
     }
 
     .article.right {
-        --direction: 50px;
+        --direction: translateX(50px);
         border-right: 1px solid white;
         text-align: end;
-    }
-
-    @keyframes fade-slide {
-        from {
-            opacity: 0;
-            transform: translateX(var(--direction, 50px));
-        }
     }
 
     h1 {

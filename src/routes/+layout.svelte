@@ -39,14 +39,12 @@
         height: 100%;
         background-image: linear-gradient(to bottom, black 0%, transparent 100%);
         background-repeat: no-repeat;
-        background-size: 100% 100px;
-        animation: background-grow 1s forwards;
+        animation: background-grow 1s both;
     }
 
     @keyframes background-grow {
-        to {
-            background-size: 100% 500px;
-        }
+        from {  background-size: 100% 100px; }
+        to { background-size: 100% 500px; }
     }
 
     #page-content {

@@ -31,17 +31,22 @@ body {
 }
 
 /* Animations */
-.fade-slide {
-    animation: slide-in 1s both;
+.fade {
+    animation: fade 1s backwards;
 }
 
-@keyframes slide-in {
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+.slide {
+    animation: slide 1s backwards;
+}
+
+.fade-slide {
+    animation: fade 1s both, slide 1s backwards;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+}
+
+@keyframes slide {
+    from { transform: var(--direction, translateY(-100%)); }
 }
