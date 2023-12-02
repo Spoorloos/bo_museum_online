@@ -24,8 +24,8 @@
     #shadow-box {
         padding: 5%;
         height: 100%;
-        background-image: url("/img/background.png");
-        background-position: center center;
+        background-image: url("/img/background.jpg");
+        background-position: center -200px;
         background-repeat: no-repeat;
         position: relative;
     }
@@ -37,17 +37,15 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(to bottom, black 0%, transparent 50%);
+        background-image: linear-gradient(to bottom, black 0%, transparent 100%);
         background-repeat: no-repeat;
-        animation: background-grow 1s both;
+        background-size: 100% 100px;
+        animation: background-grow 1s forwards;
     }
 
     @keyframes background-grow {
-        from {
-            background-size: 100% 20%;
-        }
         to {
-            background-size: 100% 100%;
+            background-size: 100% 500px;
         }
     }
 

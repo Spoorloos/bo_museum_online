@@ -1,25 +1,18 @@
 <script>
-    // Attributes
     export let title = "";
     export let content = "";
     export let image;
-
-    export let titleSize = "7rem";
     export let direction = "left";
-    export let maxWidth = "75%";
+
+    export let style = "";
+    export let titleStyle = "";
+    export let contentStyle = "";
 </script>
 
-<div
-    class="article"
-    style={`
-        --direction: ${ (direction === "right" || -1) * 50 }px;
-        border-${direction}: 1px solid white;
-        max-width: ${maxWidth};
-    `}>
-
+<div class={`article ${direction}`} {style}>
     <div>
-        <h1 style={`font-size: ${titleSize};`}>{title}</h1>
-        <p>{content}</p>
+        <h1 style={titleStyle}>{title}</h1>
+        <p style={contentStyle}>{content}</p>
     </div>
 
     {#if image}
@@ -29,31 +22,35 @@
 
 <style>
     .article {
-        display: inline-flex;
-        justify-content: space-between;
-        gap: 50px;
         padding: 25px;
         animation: fade-slide 1s both;
+    }
+
+    .article.left {
+        --direction: -50px;
+        border-left: 1px solid white;
+
+        & h1::first-letter {
+            margin-left: -0.05em;
+        }
+    }
+
+    .article.right {
+        --direction: 50px;
+        border-right: 1px solid white;
+        text-align: end;
     }
 
     @keyframes fade-slide {
         from {
             opacity: 0;
-            transform: translateX(var(--direction));
-        }
-        to {
-            opacity: 1;
-            transform: none;
+            transform: translateX(var(--direction, 50px));
         }
     }
 
     h1 {
         margin: 0;
         font-family: sans-serif;
-
-        &::first-letter {
-            margin-left: -0.05em;
-        }
     }
 
     p {

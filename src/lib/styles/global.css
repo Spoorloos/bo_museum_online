@@ -4,14 +4,30 @@ button {
 }
 
 /* Body */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin: 0;
-    width: 100vw;
-    height: 100vh;
     color: white;
     background-color: black;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-left: thin solid #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777;
 }
 
 /* Animations */
