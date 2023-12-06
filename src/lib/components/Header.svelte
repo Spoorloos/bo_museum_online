@@ -9,11 +9,11 @@
 
 <!-- Content -->
 <header>
-    <a class="fade-slide" href={base + "/"}>
+    <a class="fade-slide-blur" href={base + "/"}>
         <img alt="logo" src="img/logo_and_title.png"/>
     </a>
 
-    <nav class="fade-slide">
+    <nav class="fade-slide-blur">
         <CustomSelect
             bind:selected={ $locale }
             options={ [ "en", "nl" ] }
@@ -35,7 +35,7 @@
 
 <!-- Style -->
 <style>
-    a, button, img {
+    a, img {
         height: 100%;
     }
 
@@ -47,9 +47,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
-        height: 50px;
-        z-index: 1000;
+        padding: var(--header-padding);
+        height: var(--header-height);
+        box-sizing: border-box;
+        z-index: 5;
     }
 
     nav {

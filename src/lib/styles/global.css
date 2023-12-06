@@ -1,12 +1,20 @@
 /* Globals */
+:root {
+    --header-padding: 1rem;
+    --header-height: 10%;
+
+    --page-padding: 5%;
+    --main-spacing: 2rem;
+}
+
 button {
     cursor: pointer;
 }
 
 /* Body */
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
@@ -19,28 +27,18 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    border-left: thin solid #333;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #777;
+    width: 0px;
 }
 
 /* Animations */
-.fade {
-    animation: fade 1s backwards;
-}
+.fade { animation: fade 1s both; }
+.slide { animation: slide 1s both; }
+.blur { animation: blur 1s both; }
 
-.slide {
-    animation: slide 1s backwards;
-}
-
-.fade-slide {
-    animation: fade 1s both, slide 1s backwards;
+.fade-slide-blur {
+    animation-name: fade, slide, blur;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 @keyframes fade {
@@ -49,4 +47,8 @@ body {
 
 @keyframes slide {
     from { transform: var(--direction, translateY(-100%)); }
+}
+
+@keyframes blur {
+    from { filter: blur(5px); }
 }

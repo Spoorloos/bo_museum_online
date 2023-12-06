@@ -1,6 +1,10 @@
+<script>
+    export let noHover = false;
+    export let style = '';
+</script>
 
 <!-- Contents -->
-<button type="button">
+<button type="button" class:nohover={noHover} {style}>
     <slot/>
 </button>
 
@@ -30,7 +34,7 @@
         z-index: -1;
     }
     
-    button:hover {
+    button:not(.nohover):hover, button.nohover {
         color: black;
         &:before { height: 100%; }
     }

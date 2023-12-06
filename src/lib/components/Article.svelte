@@ -9,7 +9,7 @@
     export let contentStyle = "";
 </script>
 
-<div class={`article fade-slide ${direction}`} {style}>
+<div class={`article fade-slide-blur ${direction}`} {style}>
     <div>
         <h1 style={titleStyle}>{title}</h1>
         <p style={contentStyle}>{content}</p>

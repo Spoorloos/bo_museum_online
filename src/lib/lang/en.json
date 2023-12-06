@@ -3,5 +3,8 @@
         "whats_on": "What's on",
         "about_us": "About us",
         "contact": "Contact"
+    },
+    "home": {
+        "purchase": "Purchase tickets"
     }
 }
