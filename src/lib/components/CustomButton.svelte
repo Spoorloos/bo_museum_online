@@ -4,7 +4,7 @@
 </script>
 
 <!-- Contents -->
-<button type="button" tabindex="-1" class:nohover={noHover} {style}>
+<button type="button" class:nohover={noHover} {style}>
     <slot/>
 </button>
 
