@@ -11,6 +11,7 @@
     <div class="options">
         {#each options as option}
             <button
+                type="button"
                 class="option"
                 on:click={ () => void (selected = option) }
             >{ option.toUpperCase() }</button>
@@ -39,7 +40,8 @@
         transition: max-height 0.45s;
     }
 
-    .select-parent:hover .options {
+    .select-parent:hover .options,
+    .select-parent:focus-within .options {
         max-height: 100px;
     }
 
@@ -52,8 +54,6 @@
         font: bold 13px sans-serif;
         transition: background-color 0.3s, color 0.3s;
 
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.2);
-        }
+        &:hover { background-color: rgba(0, 0, 0, 0.2); }
     }
 </style>

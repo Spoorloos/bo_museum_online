@@ -10,7 +10,7 @@
 <!-- Content -->
 <header>
     <a class="fade-slide-blur" href={base + "/"}>
-        <img alt="logo" src="img/logo_and_title.png"/>
+        <img id="logo" alt="logo" src="img/logo_and_title.png"/>
     </a>
 
     <nav class="fade-slide-blur">
@@ -47,16 +47,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: var(--header-padding);
+        padding: var(--header-spacing);
         height: var(--header-height);
         box-sizing: border-box;
         z-index: 5;
     }
 
+    #logo {
+        transition: scale 0.3s;
+
+        &:hover { scale: 1.1; }
+    }
+
     nav {
         display: inline-flex;
         justify-content: space-between;
-        gap: 20px;
+        gap: var(--header-spacing);
         height: 100%;
     }
 </style>

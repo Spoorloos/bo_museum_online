@@ -1,10 +1,10 @@
 /* Globals */
 :root {
-    --header-padding: 1rem;
+    --header-spacing: 1rem;
     --header-height: 10%;
-
-    --page-padding: 5%;
-    --main-spacing: 2rem;
+    
+    --page-spacing: 2rem;
+    --page-outer-padding: 5%;
 }
 
 button {

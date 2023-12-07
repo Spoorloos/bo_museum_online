@@ -22,7 +22,6 @@
 </section>
 
 <section id="reviews">
-    <h1>Ik word hard van flexboxen 😍</h1>
 </section>
 
 <!-- Style -->
@@ -30,9 +29,9 @@
     #main-page-content {
         display: flex;
         flex-direction: column;
-        gap: var(--main-spacing);
+        gap: var(--page-spacing);
         height: calc(100vh - var(--header-height));
-        padding: var(--page-padding);
+        padding: var(--page-outer-padding);
         box-sizing: border-box;
         background-image: url("/img/background.jpg");
         background-position: center 0;
