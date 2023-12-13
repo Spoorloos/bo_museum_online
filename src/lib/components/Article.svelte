@@ -1,15 +1,15 @@
 <script>
     export let title = "";
     export let content = "";
-    export let image;
     export let direction = "left";
+    export let image = null;
 
     export let style = "";
     export let titleStyle = "";
     export let contentStyle = "";
 </script>
 
-<div class={`article fade-slide-blur ${direction}`} {style}>
+<div class="article fade-slide-blur {direction}" {style}>
     <div>
         <h1 style={titleStyle}>{title}</h1>
         <p style={contentStyle}>{content}</p>

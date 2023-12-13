@@ -31,14 +31,14 @@ body {
 }
 
 /* Animations */
-.fade { animation: fade 1s both; }
-.slide { animation: slide 1s both; }
-.blur { animation: blur 1s both; }
+.fade { animation: fade 1s backwards; }
+.slide { animation: slide 1s backwards; }
+.blur { animation: blur 1s backwards; }
 
 .fade-slide-blur {
     animation-name: fade, slide, blur;
     animation-duration: 1s;
-    animation-fill-mode: both;
+    animation-fill-mode: backwards;
 }
 
 @keyframes fade {

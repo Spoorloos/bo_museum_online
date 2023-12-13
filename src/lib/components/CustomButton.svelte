@@ -4,7 +4,7 @@
 </script>
 
 <!-- Contents -->
-<button type="button" class:nohover={noHover} {style}>
+<button type="button" class:nohover={noHover} {style} on:click>
     <slot/>
 </button>
 
@@ -19,9 +19,10 @@
         position: relative;
         transition: color 0.3s;
         height: 100%;
+        z-index: 1;
     }
 
-    button:before {
+    button::before {
         content: '';
         background-color: white;
         box-shadow: 0px 0px 10px white;
@@ -36,10 +37,10 @@
     
     button:not(.nohover):hover, button.nohover {
         color: black;
-        &:before { height: 100%; }
+        &::before { height: 100%; }
     }
 
-    button:active:before {
+    button:active::before {
         opacity: 0.75;
     }
 </style>
