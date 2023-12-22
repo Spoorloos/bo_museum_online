@@ -33,10 +33,12 @@
         height: calc(100vh - var(--header-height));
         padding: var(--page-outer-padding);
         box-sizing: border-box;
-        background-image: url("/img/background.jpg");
         background-position: center 0;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 -50px 100px black, inset 0 50px 100px black;
+        /* box-shadow is making me suicidal, don't mind this */
+        background:
+            linear-gradient(to bottom, black, transparent 15%),
+            linear-gradient(to top, black, transparent 15%),
+            url("/img/background.jpg") no-repeat;
     }
 
     #purchase {
