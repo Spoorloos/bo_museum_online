@@ -2,6 +2,12 @@
 <script>
     export let selected = "";
     export let options = [];
+
+    // Functions
+    function languageClick(event, option) {
+        selected = option;
+        event.target.blur();
+    }
 </script>
   
 <!-- Contents -->
@@ -13,7 +19,7 @@
             <button
                 type="button"
                 class="option"
-                on:click={ () => void (selected = option) }
+                on:click={ e => languageClick(e, option) }
             >{ option.toUpperCase() }</button>
         {/each}
     </div>

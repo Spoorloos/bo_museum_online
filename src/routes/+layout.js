@@ -10,6 +10,7 @@ init({ fallbackLocale: "en", initialLocale: "en" });
 export const prerender = true;
 
 // Load function
-export async function load() {
+export async function load(data) {
     await waitLocale();
+    return { path: data.url.pathname };
 }
