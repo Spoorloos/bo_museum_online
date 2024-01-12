@@ -1,7 +1,8 @@
 <!-- Script -->
 <script>
     import Article from "$lib/components/Article.svelte";
-    //import ReviewCard from "$lib/components/ReviewCard.svelte";
+	import ScrollBox from "../lib/components/ScrollBox.svelte";
+    import ReviewCard from "$lib/components/ReviewCard.svelte";
     import CustomButton from "$lib/components/CustomButton.svelte";
 
     import { _ } from "svelte-i18n";
@@ -22,6 +23,20 @@
 </section>
 
 <section id="reviews">
+    <ScrollBox>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+    </ScrollBox>
 </section>
 
 <!-- Style -->
@@ -36,8 +51,8 @@
         background-position: center 0;
         /* box-shadow is making me suicidal, don't mind this */
         background:
-            linear-gradient(to bottom, black, transparent 15%),
-            linear-gradient(to top, black, transparent 15%),
+            linear-gradient(to bottom, black, transparent 30%),
+            linear-gradient(to top, black, transparent 30%),
             url("/img/background.jpg") no-repeat;
     }
 

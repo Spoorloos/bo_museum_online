@@ -11,6 +11,7 @@
         position: relative;
         height: 100%;
         padding: 20px;
+        box-sizing: border-box;
         border: 1px solid white;
     }
 </style>

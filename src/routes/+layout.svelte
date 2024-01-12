@@ -17,20 +17,13 @@
 <!-- Page -->
 <Header/>
 {#key data.path}
-    <div
-        class="page-trans"
-        in:fade={{ duration: 250, delay: 250 }}
-        out:fade={{ duration: 250 }}
-    >
+    <main in:fade={{ duration: 250, delay: 250 }} out:fade={{ duration: 250 }}>
         <slot/>
-    </div>
+    </main>
 {/key}
 <Footer/>
 
 <!-- Styles -->
 <style>
-    .page-trans {
-        width: 100%;
-        height: 100%;
-    }
+    main { width: 100%; }
 </style>
