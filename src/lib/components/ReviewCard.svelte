@@ -44,7 +44,6 @@
 
     .review-card {
         height: 100%;
-<<<<<<< HEAD
         position: relative;
     }
 
