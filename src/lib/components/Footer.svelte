@@ -1,8 +1,5 @@
 <!-- <footer>Copyright © 2023</footer> -->
 <script>
-    let canvas = document.getElementsByClassName("social_media")
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET", "/img/instagram.svg", true);
 
 </script>
 

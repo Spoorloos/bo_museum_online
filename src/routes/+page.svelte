@@ -4,8 +4,11 @@
     import ReviewCard from "$lib/components/ReviewCard.svelte";
     import CustomButton from "$lib/components/CustomButton.svelte";
 
-    import { _ } from "svelte-i18n";
     import reviews from "$lib/json/reviews.json";
+    import { inview } from 'svelte-inview';
+    import { _ } from "svelte-i18n";
+
+    let reviewsEnteredView = false;
 </script>
 
 <!-- Content -->
@@ -22,8 +25,14 @@
     </div>
 </section>
 
-<section id="reviews">
-    <img id="reviews-logo" src="img/logo_and_title.png" alt="logo">
+<section id="reviews" class:fade-slide-blur={reviewsEnteredView}>
+    <img
+        id="reviews-logo"
+        src="img/logo_and_title.png"
+        alt="logo"
+        use:inview={{ unobserveOnEnter: true }}
+        on:inview_enter={ () => reviewsEnteredView = true } >
+
     <div id="reviews-list">
         {#each reviews as { name, content, rating }}
             <ReviewCard {name} {content} {rating}/>
@@ -56,6 +65,8 @@
         display: flex;
         gap: var(--page-spacing);
         padding: var(--page-spacing);
+        opacity: 1;
+        --direction: translateX(-50px);
     }
 
     #reviews-logo {
