@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Peter",
+        "content": "Ik haat museums",
+        "rating": 3
+    },
+    {
+        "name": "Gerda",
+        "content": "Pleeg zelfmoord",
+        "rating": 4.5
+    },
+    {
+        "name": "Joost",
+        "content": "Ik haat vrouwen",
+        "rating": 1
+    }
+]

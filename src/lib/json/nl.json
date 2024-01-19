@@ -5,7 +5,10 @@
         "contact": "Contact"
     },
     "home": {
-        "purchase": "Koop kaarten"
+        "purchase": "Koop kaarten",
+        "reviews": {
+			"show_more": "laat meer zien"
+		}
     },
     "about_us": {
         "header": {

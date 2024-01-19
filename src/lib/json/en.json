@@ -5,7 +5,10 @@
 		"contact": "Contact"
 	},
 	"home": {
-		"purchase": "Purchase tickets"
+		"purchase": "Purchase tickets",
+		"reviews": {
+			"show_more": "show more"
+		}
 	},
 	"about_us": {
 		"header": {

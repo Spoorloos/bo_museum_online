@@ -1,11 +1,11 @@
 <!-- Script -->
 <script>
     import Article from "$lib/components/Article.svelte";
-	import ScrollBox from "../lib/components/ScrollBox.svelte";
     import ReviewCard from "$lib/components/ReviewCard.svelte";
     import CustomButton from "$lib/components/CustomButton.svelte";
 
     import { _ } from "svelte-i18n";
+    import reviews from "$lib/json/reviews.json";
 </script>
 
 <!-- Content -->
@@ -23,20 +23,12 @@
 </section>
 
 <section id="reviews">
-    <ScrollBox>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-        <ReviewCard/>
-    </ScrollBox>
+    <img id="reviews-logo" src="img/logo_and_title.png" alt="logo">
+    <div id="reviews-list">
+        {#each reviews as { name, content, rating }}
+            <ReviewCard {name} {content} {rating}/>
+        {/each}
+    </div>
 </section>
 
 <!-- Style -->
@@ -58,5 +50,25 @@
 
     #purchase {
         align-self: center;
+    }
+
+    #reviews {
+        display: flex;
+        gap: var(--page-spacing);
+        padding: var(--page-spacing);
+    }
+
+    #reviews-logo {
+        width: 50%;
+        align-self: center;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+
+    #reviews-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: var(--page-spacing);
     }
 </style>
