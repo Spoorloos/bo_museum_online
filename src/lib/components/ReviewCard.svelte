@@ -36,6 +36,7 @@
     >{ $_("home.reviews.show_more") }</button>
 </div>
 
+
 <style>
     h3 {
         margin: 0;
@@ -43,6 +44,7 @@
 
     .review-card {
         height: 100%;
+<<<<<<< HEAD
         position: relative;
     }
 
