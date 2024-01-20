@@ -1,17 +1,17 @@
 [
     {
         "name": "Peter",
-        "content": "Ik haat museums",
+        "content": "Lorem Ipsum",
         "rating": 3
     },
     {
         "name": "Gerda",
-        "content": "Pleeg zelfmoord",
+        "content": "Lorem Ipsum",
         "rating": 4.5
     },
     {
         "name": "Joost",
-        "content": "Ik haat vrouwen",
+        "content": "Lorem Ipsum",
         "rating": 1
     }
 ]

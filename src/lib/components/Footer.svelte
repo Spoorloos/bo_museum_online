@@ -1,16 +1,13 @@
-<!-- <footer>Copyright © 2023</footer> -->
-<script>
-
-</script>
+<!-- <script></script> -->
 
 <footer>
-    <div id="left"><canvas class="social_media"></canvas></div>
+    <!-- <div id="left"><canvas class="social_media"></canvas></div>
     <div id="right">
         <img src="/img/routebeschrijving_nxt.png" alt="" />
-    </div>
+    </div> -->
 </footer>
 
-<style>
+<!-- <style>
     #left,
     #right {
         width: 50vw;
@@ -34,4 +31,4 @@
     #right img {
         float: left;
     }
-</style>
+</style> -->

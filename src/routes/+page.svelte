@@ -23,6 +23,11 @@
     <div id="purchase" class="fade">
         <CustomButton noHover>{ $_("home.purchase") }</CustomButton>
     </div>
+
+    <a id="reviews-arrow" href="#reviews">
+        <span>Reviews</span>
+        <img alt="arrow down" src="img/arrow-down.png">
+    </a>
 </section>
 
 <section id="reviews" class:fade-slide-blur={reviewsEnteredView}>
@@ -48,6 +53,7 @@
         gap: var(--page-spacing);
         height: calc(100vh - var(--header-height));
         padding: var(--page-outer-padding);
+        padding-bottom: var(--page-spacing);
         box-sizing: border-box;
         background-position: center 0;
         /* box-shadow is making me suicidal, don't mind this */
@@ -61,11 +67,32 @@
         align-self: center;
     }
 
+    #reviews-arrow {
+        margin-top: auto;
+        align-self: center;
+        height: 1.3rem;
+        width: fit-content;
+        display: flex;
+
+        & span {
+            font-family: 'Segoe UI';
+            font-size: 1.3rem;
+            font-weight: 100;
+            line-height: 18px;
+        }
+
+        & img {
+            height: 100%;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+        }
+    }
+
     #reviews {
         display: flex;
         gap: var(--page-spacing);
         padding: var(--page-spacing);
-        opacity: 1;
+        opacity: 0;
         --direction: translateX(-50px);
     }
 
