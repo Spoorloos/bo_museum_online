@@ -4,6 +4,11 @@
         "about_us": "Over ons",
         "contact": "Contact"
     },
+    "footer": {
+		"follow_us_at": "Volg ons op",
+		"reach_us_at": "Berijk ons via",
+		"visit_us_at": "Bezoek ons bij"
+	},
     "home": {
         "purchase": "Koop kaarten",
         "reviews": {

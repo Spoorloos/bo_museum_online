@@ -4,6 +4,11 @@
 		"about_us": "About us",
 		"contact": "Contact"
 	},
+	"footer": {
+		"follow_us_at": "Follow us at",
+		"reach_us_at": "Reach us at",
+		"visit_us_at": "Visit us at"
+	},
 	"home": {
 		"purchase": "Purchase tickets",
 		"reviews": {
