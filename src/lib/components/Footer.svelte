@@ -1,34 +1,88 @@
-<!-- <script></script> -->
+<script>
+    import { inview } from 'svelte-inview';
 
-<footer>
-    <!-- <div id="left"><canvas class="social_media"></canvas></div>
-    <div id="right">
-        <img src="/img/routebeschrijving_nxt.png" alt="" />
-    </div> -->
+    let enteredView = false;
+</script>
+
+<footer class:fade-slide-blur={enteredView}>
+    <div
+        class="contact"
+        use:inview={{ unobserveOnEnter: true }}
+        on:inview_enter={ () => enteredView = true } 
+    >
+        <div>
+            <h2>Follow us on</h2>
+            <div class="contact-platforms">
+                <a href="https://twitter.com/nxtmuseum"><img alt="twitter" src="img/twitter-logo.png"></a>
+                <a href="https://www.tiktok.com/@nxtmuseum"><img alt="tiktok" src="img/tiktok-logo.png"></a>
+                <a href="https://www.youtube.com/@NxtMuseum"><img alt="youtube" src="img/youtube-logo.png"></a>
+                <a href="https://www.instagram.com/nxtmuseum"><img alt="instagram" src="img/instagram-logo.png"></a>
+            </div>
+            <h2>Reach us at</h2>
+            <div>support@nxtmuseum.com</div>
+        </div>
+        <div>
+            <h2>Visit us at</h2>
+            <p class="address">
+                Nxt Museum<br>
+                Asterweg 22<br>
+                1031HP Amsterdam
+            </p>
+            <a class="google-maps" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c6093179f05169:0xb7418dbe6d40beb6?sa=X&ved=2ahUKEwjdiNqHme-DAxVw7LsIHSNNC2UQ4kB6BAgCEAA">Google Maps</a>
+        </div>
+    </div>
 </footer>
 
-<!-- <style>
-    #left,
-    #right {
-        width: 50vw;
-        height: 500px;
-        float: left;
-    }
-    /* #right {
-        width:;
-    }
-    #left {
-    } */
-
+<style>
     footer {
+        opacity: 0;
+        --direction: translateX(-50px);
+    }
+
+    .contact {
         display: flex;
-        font-family: sans-serif;
+        padding: var(--page-spacing);
+        gap: var(--page-spacing);
+        font-family: 'Segoe UI';
+
+        & > div {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: thin solid white;
+        }
     }
-    .social_media{
+
+    .contact-platforms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
         width: 100%;
-        height: 100%;
+        justify-content: center;
+        
+        & img {
+            height: 3rem;
+            padding: 5px;
+            box-sizing: border-box;
+            border-bottom: thin solid transparent;
+            transition: border-bottom-color 0.3s, translate 0.3s;
+
+            &:hover {
+                border-bottom-color: white;
+                translate: 0 -10px;
+            }
+        }
     }
-    #right img {
-        float: left;
+
+    .address {
+        margin: 0;
+        text-align: center;
+        font-size: 1.2rem;
     }
-</style> -->
+
+    .google-maps {
+        margin: 10px 0;
+        color: #98a6ff;
+    }
+</style>

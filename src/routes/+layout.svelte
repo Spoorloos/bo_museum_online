@@ -5,8 +5,6 @@
     import "$lib/styles/global.css";
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
-
-	import { fade } from "svelte/transition";
 </script>
 
 <!-- Svelte Head -->
@@ -17,11 +15,11 @@
 <!-- Page -->
 <Header/>
 {#key data.path}
-    <main in:fade={{ duration: 250, delay: 250 }} out:fade={{ duration: 250 }}>
+    <main class="fade">
         <slot/>
     </main>
+    <Footer/>
 {/key}
-<Footer/>
 
 <!-- Styles -->
 <style>
