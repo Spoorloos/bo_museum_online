@@ -17,11 +17,16 @@
 {#key data.path}
     <main class="fade">
         <slot/>
+        <Footer/>
     </main>
-    <Footer/>
 {/key}
 
 <!-- Styles -->
 <style>
-    main { width: 100%; }
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: var(--page-spacing);
+        width: 100%; 
+    }
 </style>

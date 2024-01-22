@@ -9,6 +9,10 @@
     import { _ } from "svelte-i18n";
 
     let reviewsEnteredView = false;
+
+    function getRandomElements(array, n) {
+        return array.sort(() => 0.5 - Math.random()).splice(0, n);
+    }
 </script>
 
 <!-- Content -->
@@ -40,7 +44,7 @@
     </div>
 
     <div id="reviews-list">
-        {#each reviews as { name, content, rating }}
+        {#each getRandomElements(reviews, 3) as { name, content, rating }}
             <ReviewCard {name} {content} {rating}/>
         {/each}
     </div>
