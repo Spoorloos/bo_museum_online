@@ -31,12 +31,13 @@
 </section>
 
 <section id="reviews" class:fade-slide-blur={reviewsEnteredView}>
-    <img
-        id="reviews-logo"
-        src="img/logo_and_title.png"
-        alt="logo"
-        use:inview={{ unobserveOnEnter: true }}
-        on:inview_enter={ () => reviewsEnteredView = true } >
+    <div id="reviews-logo">
+        <img
+            alt="logo"
+            src="img/logo_and_title.png"
+            use:inview={{ unobserveOnEnter: true }}
+            on:inview_enter={ () => reviewsEnteredView = true }>
+    </div>
 
     <div id="reviews-list">
         {#each reviews as { name, content, rating }}
@@ -74,14 +75,14 @@
         width: fit-content;
         display: flex;
 
-        & span {
+        & > span {
             font-family: 'Segoe UI';
             font-size: 1.3rem;
             font-weight: 100;
             line-height: 18px;
         }
 
-        & img {
+        & > img {
             height: 100%;
             aspect-ratio: 1/1;
             object-fit: contain;
@@ -99,12 +100,16 @@
     #reviews-logo {
         width: 50%;
         align-self: center;
-        padding: 5%;
-        box-sizing: border-box;
+
+        & > img {
+            padding: var(--page-spacing);
+            box-sizing: border-box;
+            width: 100%;
+        }
     }
 
     #reviews-list {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         gap: var(--page-spacing);

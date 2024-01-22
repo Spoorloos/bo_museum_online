@@ -12,8 +12,7 @@
   
 <!-- Contents -->
 <div class="select-parent">
-    <button class="selected" type="menu">{ selected.toUpperCase() } ▼</button>
-
+    <div class="selected">{ selected.toUpperCase() } ▼</div>
     <div class="options">
         {#each options as option}
             <button
@@ -28,11 +27,11 @@
 <!-- Style -->
 <style>
     .selected {
+        text-align: center;
         height: calc(100% - 1px);
-        background-color: transparent;
         color: white;
-        border: none;
-        padding: 5px 20px;
+        padding: 15px;
+        box-sizing: border-box;
         font: bold 13px sans-serif;
     }
 

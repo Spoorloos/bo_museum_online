@@ -19,15 +19,15 @@
             options={ [ "en", "nl" ] }
         />
 
-        <a tabindex="-1" href="{base}/whats-on">
+        <a tabindex="-1" href="{base}/whats-on/">
             <CustomButton>{ $_("header.whats_on") }</CustomButton>
         </a>
     
-        <a tabindex="-1" href="{base}/about-us">
+        <a tabindex="-1" href="{base}/about-us/">
             <CustomButton>{ $_("header.about_us") }</CustomButton>
         </a>
 
-        <a tabindex="-1" href="{base}/contact">
+        <a tabindex="-1" href="{base}/contact/">
             <CustomButton>{ $_("header.contact") }</CustomButton>
         </a>
     </nav>
