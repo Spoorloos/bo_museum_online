@@ -16,8 +16,7 @@
     <nav class="fade-slide-blur">
         <CustomSelect
             bind:selected={ $locale }
-            options={ [ "en", "nl" ] }
-        />
+            options={ [ "en", "nl" ] }/>
 
         <a tabindex="-1" href="{base}/whats-on/">
             <CustomButton>{ $_("header.whats_on") }</CustomButton>
@@ -27,8 +26,8 @@
             <CustomButton>{ $_("header.about_us") }</CustomButton>
         </a>
 
-        <a tabindex="-1" href="{base}/contact/">
-            <CustomButton>{ $_("header.contact") }</CustomButton>
+        <a tabindex="-1" href="{base}/tickets/">
+            <CustomButton>{ $_("header.tickets") }</CustomButton>
         </a>
     </nav>
 </header>

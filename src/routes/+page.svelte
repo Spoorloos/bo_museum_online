@@ -5,13 +5,14 @@
     import CustomButton from "$lib/components/CustomButton.svelte";
 
     import reviews from "$lib/json/reviews.json";
-    import { inview } from 'svelte-inview';
+    import { inview } from "svelte-inview";
     import { _ } from "svelte-i18n";
+    import { base } from "$app/paths";
 
     let reviewsEnteredView = false;
 
     function getRandomElements(array, n) {
-        return array.sort(() => 0.5 - Math.random()).splice(0, n);
+        return array.sort(() => 0.5 - Math.random()).slice(0, n);
     }
 </script>
 
@@ -24,9 +25,9 @@
         style="max-width: 60%;"
         titleStyle="font-size: 6rem;"/>
 
-    <div id="purchase" class="fade">
+    <a id="purchase" class="fade" href="{base}/tickets">
         <CustomButton noHover>{ $_("home.purchase") }</CustomButton>
-    </div>
+    </a>
 
     <a id="reviews-arrow" href="#reviews">
         <span>Reviews</span>

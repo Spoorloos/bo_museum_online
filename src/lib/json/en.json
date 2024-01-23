@@ -2,7 +2,7 @@
 	"header": {
 		"whats_on": "What's on",
 		"about_us": "About us",
-		"contact": "Contact"
+		"tickets": "Tickets"
 	},
 	"footer": {
 		"follow_us_at": "Follow us at",
@@ -29,6 +29,19 @@
 			"where": "Based in North Amsterdam, the space is built specifically to explore new media art; art that expands technical possibilities and applications, is dynamic and unbound by form and that generates movement whether physical, mental or emotional. The space provides all the ingredients for these progressive art forms to grow, flourish and evolve. Nxt Museum is a place where creatives bring their visions to life.",
 			"mission": "It’s our mission to facilitate new and next iterations of creative expression. Everything we do, want and fear relates directly to the future. It is one of the most fascinating concepts for the human mind. A thrilling source of inspiration that drives endless questions. Today, these questions are more important and complex than ever. What’s next? We don’t know, but we are endlessly curious to explore together.",
 			"team": "Connected by a love for art & technology and a drive to explore the future. We're here to show you the art of tomorrow, everyday."
+		}
+	},
+	"tickets": {
+		"choose": "Choose your tickets",
+		"name": "Name",
+		"price": "Price",
+		"quantity": "Quantity",
+		"checkout": "Continue to checkout",
+		"tickets": {
+			"adult": "Adult",
+			"student": "Student",
+			"youth": "Youth",
+			"children": "Children"
 		}
 	}
 }

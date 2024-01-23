@@ -2,7 +2,7 @@
     "header": {
         "whats_on": "Wat speelt er",
         "about_us": "Over ons",
-        "contact": "Contact"
+        "tickets": "Kaarten"
     },
     "footer": {
 		"follow_us_at": "Volg ons op",
@@ -31,5 +31,17 @@
             "team": "Een team verbonden door passie voor kunst en de zoektocht naar vooruitgang. We bundelen onze krachten om met mediakunst de toekomst te ontdekken."
         }
     },
-    "whats_on": {}
+    "tickets": {
+		"choose": "Kies je kaarten",
+		"name": "Naam",
+		"price": "Prijs",
+		"quantity": "Aantal",
+		"checkout": "Ga door",
+		"tickets": {
+			"adult": "Volwassenen",
+			"student": "Student",
+			"youth": "Jongeren",
+			"children": "Kinderen"
+		}
+	}
 }

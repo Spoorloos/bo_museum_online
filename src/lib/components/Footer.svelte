@@ -1,6 +1,6 @@
 <script>
     import { _ } from "svelte-i18n";
-    import { inview } from 'svelte-inview';
+    import { inview } from "svelte-inview";
 
     let enteredView = false;
 </script>
