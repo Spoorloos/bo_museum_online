@@ -45,7 +45,17 @@
                 "Experimenteel van aard wordt de praktijk van Random International gevoed door onderzoek en wetenschappelijke ontdekking. De groep streeft ernaar de vraag te verbreden wat het betekent om vandaag de dag in leven te zijn door te experimenteren met hoe we ons verbinden – met verschillende vormen van leven, met verschillende wereldbeelden en met elkaar.",
                 "<strong>Extra kredieten:<br></strong><em>Studies of Apparent Behavior</em>, Fritz Heider en Marianne Simmel, 1943<br>Digitale HD-video van 16mm reversal film<br>Met dank aan: Moving Image Research Collections, University of South Carolina (gift by Karl Heider)"
             ],
-            "": ""
+            "fifteen_points": {
+                "name": "Fifteen Points",
+                "index": 0,
+                "description": [
+                    "Geef je de voorkeur aan objecten of mensen?",
+                    "Wanneer je de installatie <em>Fifteen Points</em> door Random International bekijkt, krijgt deze vraag een nieuwe dimensie. Hoe snel weet je een menselijke figuur te herkennen tussen de door machines gerangschikte lichtpunten? ",
+                    "Na een onderzoeksverblijf aan de Biomimetic Robotics Division van Harvard bouwde Random International deze robot sculptuur op basis van wetenschappelijke inzichten in het vermogen van onze hersenen om identiteit te onderscheiden uit een minimale hoeveelheid gegevens. ",
+                    "Met behulp van aluminium rails, een roestvrijstalen structuur, op maat gemaakte software en LED’s wordt de levenloze machine door het menselijk brein getransformeerd tot een illusie van menselijkheid. ",
+                    "Door de geraffineerde plaatsing van slechts 15 lichtpunten heeft ons brein 0,15 seconden nodig om een menselijke vorm op te roepen en onze eigen subjectiviteit waar te nemen via een elektronisch object. "
+                ]
+            }
         }
     },
     "tickets": {
