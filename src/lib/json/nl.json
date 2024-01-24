@@ -54,7 +54,30 @@
                     "Na een onderzoeksverblijf aan de Biomimetic Robotics Division van Harvard bouwde Random International deze robot sculptuur op basis van wetenschappelijke inzichten in het vermogen van onze hersenen om identiteit te onderscheiden uit een minimale hoeveelheid gegevens. ",
                     "Met behulp van aluminium rails, een roestvrijstalen structuur, op maat gemaakte software en LED’s wordt de levenloze machine door het menselijk brein getransformeerd tot een illusie van menselijkheid. ",
                     "Door de geraffineerde plaatsing van slechts 15 lichtpunten heeft ons brein 0,15 seconden nodig om een menselijke vorm op te roepen en onze eigen subjectiviteit waar te nemen via een elektronisch object. "
-                ]
+                ],
+                "living_room": {
+                    "name": "Living Room",
+                    "index": 1,
+                    "description": [
+                        "Voel jij je gestuurd?",
+                        "De <em>Living Room</em> installatie duikt in het concept van ruimte als een levende entiteit: een voortdurende verschuivende architectonische wereld die over een eigen waarnemingsvermogen beschikt.",
+                        "Wanneer je in deze veranderlijke omgeving stapt, past de ruimte zijn paden aan, meenavigerend met de bezoekers. Terwijl de grens tussen het fysieke en het etherische vervaagt, roept het werk intrigerende vragen op: wordt je door de ruimte geleid of ben je ermee verwikkeld in een gezamenlijke choreografie? Deze dynamiek benadrukt de alomtegenwoordige spanning tussen menselijke controle en de agency van de machine. ",
+                        "Door de <em>Living Room</em> te bouwen met op maat gemaakte elektronica en software die reageert op bewegingssensoren, wil Random International een omgeving creëren die ons uitnodigt om niet alleen contact te maken met de ruimte, maar ook met onze medebezoekers.",
+                        "Kan de mens co-creëren met niet-menselijke entiteiten? Zullen we leiden, geleid worden of op organische wijze een autonome dans beginnen?"
+                    ],
+                    "Life_In_Our_Minds:_Motherflock_III": {
+                        "name": "Life in our Minds: Motherflock III",
+                        "index": 2,
+                        "description": [
+                            "Ben jij een deel van het geheel?",
+                            "Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. </p><>Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. ",
+                            "Elk object is gekoppeld aan een NFT met verschillende eigenschappen die zich uiten in beweging. Deze NFT’s, die toebehoren aan particuliere eigenaren van over de hele wereld, werden na hun aankoop gegenereerd door een algoritme.",
+                            "De NFT-collecties van de respectieve kopers gaven elk digitaal object de vorm die het in de interactieve video-installatie aanneemt. ",
+                            "<em>Motherflock</em> pioniert een methode voor gemeenschappelijk eigendom van publieke kunst die een brug slaat tussen de digitale- en de fysieke wereld.",
+                            "De onderdelen van het kunstwerk zijn individueel eigendom maar samen vormen ze een nieuwe interactieve sculptuur. Wanneer je een wordt met de zwerm, werpt je aanwezigheid een digitale schaduw die een realtime reactie op het scherm uitlokt en het samenspel tussen de on- en offline wereld benadrukt. "
+                        ]
+                    }
+                }
             }
         }
     },
