@@ -13,7 +13,7 @@
 <div class="review-card">
     <div class="top">
         <div class="user-info">
-            <img class="user-icon" alt="user icon" src="img/user-icon.png">
+            <img class="user-icon" alt="user icon" src="img/user-icon.svg">
             <h3>{name}</h3>
         </div>
         <div class="stars">
@@ -24,7 +24,7 @@
                     src="img/{
                         // Ew lol, but it works ig
                         rating - i >= 0 ? "star-full" : (rating - i >= -0.5 ?  "star-half-full" : "star-empty")
-                    }.png">
+                    }.svg">
             {/each}
         </div>
     </div>

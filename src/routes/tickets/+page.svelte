@@ -48,7 +48,7 @@
         <div id="tickets-logo">
             <img
                 alt="logo"
-                src="img/logo_and_title.png">
+                src="img/logo-and-title.png">
         </div>
     </div>
 </section>
@@ -92,6 +92,7 @@
         flex-direction: column;
         gap: 10px;
         padding: 2% 0;
+        border-bottom: thin solid white;
     }
 
     .ticket-card {
@@ -126,12 +127,13 @@
     }
 
     #ticket-selection-header {
-        padding: 10px 0;
+        padding: 2% 0;
         border-bottom: solid thin white;
         font-weight: bold;
     }
 
     #ticket-checkout {
+        margin-top: 2%;
         text-align: right;
     }
 </style>

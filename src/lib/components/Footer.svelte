@@ -14,10 +14,10 @@
         <div>
             <h2>{ $_("footer.follow_us_at") }</h2>
             <div class="contact-platforms">
-                <a href="https://twitter.com/nxtmuseum"><img alt="twitter" src="img/twitter-logo.png"></a>
-                <a href="https://www.tiktok.com/@nxtmuseum"><img alt="tiktok" src="img/tiktok-logo.png"></a>
-                <a href="https://www.youtube.com/@NxtMuseum"><img alt="youtube" src="img/youtube-logo.png"></a>
-                <a href="https://www.instagram.com/nxtmuseum"><img alt="instagram" src="img/instagram-logo.png"></a>
+                <a href="https://twitter.com/nxtmuseum"><img alt="twitter" src="img/twitter-logo.svg"></a>
+                <a href="https://www.tiktok.com/@nxtmuseum"><img alt="tiktok" src="img/tiktok-logo.svg"></a>
+                <a href="https://www.youtube.com/@NxtMuseum"><img alt="youtube" src="img/youtube-logo.svg"></a>
+                <a href="https://www.instagram.com/nxtmuseum"><img alt="instagram" src="img/instagram-logo.svg"></a>
             </div>
             <h2>{ $_("footer.reach_us_at") }</h2>
             <div>support@nxtmuseum.com</div>

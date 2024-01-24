@@ -31,7 +31,7 @@
 
     <a id="reviews-arrow" href="#reviews">
         <span>Reviews</span>
-        <img alt="arrow down" src="img/arrow-down.png">
+        <img alt="arrow down" src="img/arrow-down.svg">
     </a>
 </section>
 
@@ -39,7 +39,7 @@
     <div id="reviews-logo">
         <img
             alt="logo"
-            src="img/logo_and_title.png"
+            src="img/logo-and-title.png"
             use:inview={{ unobserveOnEnter: true }}
             on:inview_enter={ () => reviewsEnteredView = true }>
     </div>

@@ -4,7 +4,7 @@
 
 <div>
     <section>
-        <img src="img/logo_and_title.png" alt="logo"/>
+        <img src="img/logo-and-title.png" alt="logo"/>
         <h1>{$page.status}: {$page.error.message}</h1>
     </section>
 </div>

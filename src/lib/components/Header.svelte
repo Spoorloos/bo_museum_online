@@ -10,7 +10,7 @@
 <!-- Content -->
 <header>
     <a class="fade-slide-blur" href="{base}/">
-        <img id="logo" alt="logo" src="img/logo_and_title.png"/>
+        <img id="logo" alt="logo" src="img/logo-and-title.png"/>
     </a>
 
     <nav class="fade-slide-blur">
