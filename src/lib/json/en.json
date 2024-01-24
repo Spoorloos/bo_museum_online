@@ -15,6 +15,93 @@
 			"show_more": "show more"
 		}
 	},
+	"whats_on": {
+		"random_international": {
+			"name": "Random International",
+			"index": 0,
+			"description": [
+				"From 27th September, see the work of postdigital art group Random International at Nxt Museum. Presenting newly completed works and others never-yet-seen in Europe – the exhibition ‘Life in a Different Resolution‘ traces a line through the artists’ creative process, from 2006 until today.",
+				"The exhibition is curated by Bogomir Doringer, and highlights the craftsmanship within and contextual backgrounds of an overview of their work.",
+				"“For what will be our third exhibition we decided to delve deep into the body of work and thinking of one art group.The artworks of Random International are creative, collective dances between the audience and technology, they create stories in our minds about what it means to be human and alive and together.”– Bogomir Doringer, Curator",
+				"Prepare to be captivated by six large-scale works, including their mesmerising ‘Living Room’ installation in collaboration with Aorist, following its success during Miami Art Week December 2022.",
+				"About the artist group:",
+				"Established in 2005, Random International is a postdigital art group exploring the impact of technological development on the human condition. Best known for their large-scale interactive installations, the group works across an array of media including sculpture, light, kinetics, video, print, and sound. Led by founders Hannes Koch (b.1975, Germany) and Florian Ortkrass (b.1975, Germany), the group has a studio in London and comprises a global team of complementary talent.",
+				"Experimental by nature, Random International’s practice is fuelled by research and scientific discovery. The group aims to broaden the question of what it is to be alive today by experimenting with how we connect — to different kinds of life, to different views of the world, and to one another.",
+				"Extra Credits:\nStudies of Apparent Behavior, Fritz Heider and Marianne Simmel, 1943 HD digital video from 16mm reversal film\nCourtesy: Moving Image Research Collections, University of South Carolina (gift by Karl Heider)"
+			],
+			"fifteen_points": {
+				"name": "Fifteen Points",
+				"index": 0,
+				"description": [
+					"Do you prefer objects or people?",
+					"As you view the installation Fifteen Points by Random International, this question takes on a new dimension. How quickly do you spot a human figure in the points of light arranged by the machinery?",
+					"Following a research residency at Harvard’s Biomimetic Robotics Division, Random International built the robotic sculpture based on scientific insights into the brain’s ability to discern identity from minimal data.",
+					"Crafted using aluminium rails, a stainless steel structure, custom software, and LEDs, the inanimate machine is transformed by the human brain into an illusion of humanity.",
+					"Through the sophisticated placement of just 15 points of light, and a persuasive score by Chihei Hatakeyama, our minds take 0.15 seconds to conjure human form, perceiving our own subjectivity through an electronic object.",
+					"— Chihei Hatakeyama\nChihei Hatakeyama is an electronic music artist from Tokyo, Japan. He released his first full-length album, Minima Moralia on experimental US label Kranky in 2006, and has since created his own record label White Paddy Mountain, launched in 2010.",
+					"Hatakeyama’s music is characteristically very slow, composed by repeatedly processing guitars, pianos, and vibraphones. The result is a mix of languid chords and sparse single instruments rising above the main composition.",
+					"In his custom arrangement for Random International’s robotic sculpture, 15 points, the ethereal sonic textures add a performative layer to the movements of the robot, highlighting the human inclination to project narrative onto objects in motion."
+				]
+			},
+			"living_room": {
+				"name": "Living Room",
+				"index": 1,
+				"description": [
+					"Do you feel led?",
+					"The Living Room installation delves into the concept of space as a living entity: a constantly shifting architectural realm that possesses a sentience of its own, manifested through the interplay of light and fog.",
+					"As you step into the shapeshifting environment, with ambient sound by Signe Lykke, the space itself adjusts its pathways, co-navigating visitor movement within it. Blurring the line between the physical and the ethereal, the work raises intriguing questions: Is the space guiding you, or are you engaged in a collaborative choreography with it? This dynamic highlights the ever-present tension between human control and the agency of the machine.",
+					"Having constructed Living Room with custom electronics and software which responds to movement sensors, Random International’s aim was to create an environment which invites us to connect with not only the space, but also our fellow visitors.",
+					"Could human-kind co-create with non-human entities? Will we lead, be led or organically begin an autonomous dance?",
+					"— About Random International\nEstablished in 2005, Random International is a postdigital art group exploring the impact of technological development on the human condition. Best known for their large-scale interactive installations, the group works across an array of media including sculpture, light, kinetics, video, print, and sound. Led by founders Hannes Koch (b.1975, Germany) and Florian Ortkrass (b.1975, Germany), the group has a studio in London and comprises a global team of complimentary talent.",
+					"Experimental by nature, Random International’s practice is fuelled by research and scientific discovery. The group aims to broaden the question of what it is to be alive today by experimenting with how we connect — to different kinds of life, to different views of the world, and to one another."
+				]
+			},
+			"Life_In_Our_Minds:_Motherflock_III": {
+				"name": "Life In Our Minds: Motherflock III",
+				"index": 2,
+				"description": [
+					"Are you a part of the whole?",
+					"With Motherflock Random International presents a virtual swarm of origami-like ‘bird-oid objects’.",
+					"Each is linked to an NFT with distinct qualities expressed through movement. Belonging to private owners from around the globe, these NFTs were generated by an algorithm after they were purchased.",
+					"The respective buyers’ NFT collections shaped each digital object into the form they take in the interactive video installation.",
+					"Motherflock pioneers a method for communal ownership of public art that bridges the gap between digital and physical realms.",
+					"Its parts are individually owned but collectively form a new interactive sculpture. Immersing yourself within the swarm, your presence casts a digital shadow, prompting a real-time response on screen and highlighting interplay between on- and offline worlds.",
+					"Additional credits:\nCourtesy: Danil Krivoruchko, Snark Art, Pace Gallery & Pace Verso"
+				]
+			},
+			"Swarm_Study_XIII": {
+				"name": "Swarm Study XIII",
+				"index": 3,
+				"description": [
+					"What moves you?",
+					"Inspired by the self organising movements of groups in nature – schools of fish, flocks of birds – Random International have been developing ‘swarm study’ artworks throughout their collaborations.",
+					"Swarm Study XIII is a programmed light sculpture informed by the autonomous iterations of starlings in flight. Our appreciation for the natural world often inspires how technologies are developed. The study of decentralised power and decision making in nature have informed the development of Artificial intelligence, Blockchain Technology and synchronised drone shows. This biomimicry involves studying natural patterns and shows up in Swarm Study XIII by bringing up questions of the synthetic vs the natural, or the individual vs the group, in a display reflecting co-existence with intelligences beyond our own – be that organic or artificial.",
+					"Suspended from above, the piece invites the viewer to sit under or stand next to the sculpture, allowing you to experience architecture as something in sync with the surrounding natural phenomena and the origins of how we move."
+				]
+			},
+			"Our_Future_Selfs": {
+				"name": "Our Future Selves",
+				"index": 4,
+				"description": [
+					"What makes you, ‘you’?",
+					"Our Future Selves by Random International presents viewers with their full-length reflection, three-dimensionally distributed as points of light. Although the image is reduced in resolution, enough detail remains to recognise human form.",
+					"Based on research on Cybernetics and our evolutionary instinct to perceive behaviour through motion, Random International began to experiment with simulating life in moving points of light, distilling details to a minimum.\nThe encounter evokes familiarity, mystery and an uncertain dance with our self image.",
+					"Be mesmerised at how the crucial details that make you “you” still shine through abstraction. Through distinct patterns of movement, Our Future Selves questions and ultimately redefines how we perceive ourselves in this ever-evolving digital age."
+				]
+			},
+			"Presence_And_Erasure": {
+				"name": "Presence and Erasure",
+				"index": 5,
+				"description": [
+					"Do you feel seen?",
+					"The digital artwork, Presence and Erasure by Random International, produces temporary portraits of passersby. It is an empty canvas without the participation of passing human bodies.",
+					"The artwork constantly scans for faces in the vicinity and photographs them. When the artwork’s algorithm detects a certain quality within a photograph, this image is temporarily printed at large scale by exposing a photochromic surface to light impulses.",
+					"The work invites us to consider our perception of surveillance technology and our participation, acceptance or defiance within it – from unlocking our phones with facial recognition, walking past surveillance cameras in public space, to uploading our selfies to social media – Presence and Erasure asks whether the thrill of seeing ourselves masks the violation of our privacy?",
+					"Engage with this evocative artwork highlighting the irreversible interconnectivity between human and machine."
+				]
+			}
+		}
+	},
 	"about_us": {
 		"header": {
 			"statement":"Nxt exhibits the art of the future, today" ,
