@@ -44,52 +44,73 @@
                 "Opgericht in 2005 is <a href=\"https://www.random-international.com/\" target=\"_blank\" rel=\"noopener\">Random International</a> een postdigitale kunstgroep die de impact van technologische ontwikkeling op de menselijke conditie onderzoekt. Het meest bekend om hun grootschalige interactieve installaties, werkt de groep in een scala aan media, waaronder beeldhouwkunst, licht, kinetica, video, drukwerk en geluid. Geleid door de oprichters Hannes Koch (geb. 1975, Duitsland) en Florian Ortkrass (geb. 1975, Duitsland), heeft de groep een studio in Londen en bestaat uit een wereldwijd team van complementair talent.",
                 "Experimenteel van aard wordt de praktijk van Random International gevoed door onderzoek en wetenschappelijke ontdekking. De groep streeft ernaar de vraag te verbreden wat het betekent om vandaag de dag in leven te zijn door te experimenteren met hoe we ons verbinden – met verschillende vormen van leven, met verschillende wereldbeelden en met elkaar.",
                 "<strong>Extra kredieten:<br></strong><em>Studies of Apparent Behavior</em>, Fritz Heider en Marianne Simmel, 1943<br>Digitale HD-video van 16mm reversal film<br>Met dank aan: Moving Image Research Collections, University of South Carolina (gift by Karl Heider)"
-            ],
-            "fifteen_points": {
-                "name": "Fifteen Points",
-                "index": 0,
-                "description": [
-                    "Geef je de voorkeur aan objecten of mensen?",
-                    "Wanneer je de installatie <em>Fifteen Points</em> door Random International bekijkt, krijgt deze vraag een nieuwe dimensie. Hoe snel weet je een menselijke figuur te herkennen tussen de door machines gerangschikte lichtpunten? ",
-                    "Na een onderzoeksverblijf aan de Biomimetic Robotics Division van Harvard bouwde Random International deze robot sculptuur op basis van wetenschappelijke inzichten in het vermogen van onze hersenen om identiteit te onderscheiden uit een minimale hoeveelheid gegevens. ",
-                    "Met behulp van aluminium rails, een roestvrijstalen structuur, op maat gemaakte software en LED’s wordt de levenloze machine door het menselijk brein getransformeerd tot een illusie van menselijkheid. ",
-                    "Door de geraffineerde plaatsing van slechts 15 lichtpunten heeft ons brein 0,15 seconden nodig om een menselijke vorm op te roepen en onze eigen subjectiviteit waar te nemen via een elektronisch object. "
-                ],
-                "living_room": {
-                    "name": "Living Room",
-                    "index": 1,
-                    "description": [
-                        "Voel jij je gestuurd?",
-                        "De <em>Living Room</em> installatie duikt in het concept van ruimte als een levende entiteit: een voortdurende verschuivende architectonische wereld die over een eigen waarnemingsvermogen beschikt.",
-                        "Wanneer je in deze veranderlijke omgeving stapt, past de ruimte zijn paden aan, meenavigerend met de bezoekers. Terwijl de grens tussen het fysieke en het etherische vervaagt, roept het werk intrigerende vragen op: wordt je door de ruimte geleid of ben je ermee verwikkeld in een gezamenlijke choreografie? Deze dynamiek benadrukt de alomtegenwoordige spanning tussen menselijke controle en de agency van de machine. ",
-                        "Door de <em>Living Room</em> te bouwen met op maat gemaakte elektronica en software die reageert op bewegingssensoren, wil Random International een omgeving creëren die ons uitnodigt om niet alleen contact te maken met de ruimte, maar ook met onze medebezoekers.",
-                        "Kan de mens co-creëren met niet-menselijke entiteiten? Zullen we leiden, geleid worden of op organische wijze een autonome dans beginnen?"
-                    ],
-                    "Life_In_Our_Minds:_Motherflock_III": {
-                        "name": "Life in our Minds: Motherflock III",
-                        "index": 2,
-                        "description": [
-                            "Ben jij een deel van het geheel?",
-                            "Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. </p><>Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. ",
-                            "Elk object is gekoppeld aan een NFT met verschillende eigenschappen die zich uiten in beweging. Deze NFT’s, die toebehoren aan particuliere eigenaren van over de hele wereld, werden na hun aankoop gegenereerd door een algoritme.",
-                            "De NFT-collecties van de respectieve kopers gaven elk digitaal object de vorm die het in de interactieve video-installatie aanneemt. ",
-                            "<em>Motherflock</em> pioniert een methode voor gemeenschappelijk eigendom van publieke kunst die een brug slaat tussen de digitale- en de fysieke wereld.",
-                            "De onderdelen van het kunstwerk zijn individueel eigendom maar samen vormen ze een nieuwe interactieve sculptuur. Wanneer je een wordt met de zwerm, werpt je aanwezigheid een digitale schaduw die een realtime reactie op het scherm uitlokt en het samenspel tussen de on- en offline wereld benadrukt. "
-                        ],
-                        "Swarm_Study_XIII": {
-                            "name": "Swarm Study XIII",
-                            "index": 3,
-                            "description": [
-                                "Wat beweegt jou? ",
-                                "Geïnspireerd op de zelforganiserende bewegingen van groepen in de natuur – scholen vissen, zwermen vogels – heeft Random International in de loop van hun samenwerkingen ‘swarm study’ kunstwerken ontwikkeld.",
-                                "<em>Swarm Study XIII</em> is een geprogrammeerde lichtsculptuur, geïnspireerd door de autonome iteraties van spreeuwen in vlucht. Onze waardering voor de natuurlijke wereld inspireert vaak de ontwikkeling van technologieën. Zo hebben het bestuderen van gedecentraliseerde macht en besluitvorming in de natuur de ontwikkeling van kunstmatige intelligentie, blockchain technologie en gesynchroniseerde drone shows geïnspireerd.",
-                                "Deze biomimetica bestudeert onder andere natuurlijke patronen en komt in <em>Swarm Study XIII</em> tot uiting door vragen op te werpen over het synthetische versus het natuurlijke, of het individu versus de groep, in een weergave die ons samenleven weerspiegelt met intelligenties buiten de onze – of dat nu organisch of kunstmatig is.",
-                                "Het hangende werk nodigt de kijker uit om onder de sculptuur te gaan zitten of zich ernaast toe te verhouden. Het daagt uit om architectuur te ervaren als iets dat synchroon loopt met de omringende natuurlijke fenomenen en de oorsprong van hoe we bewegen."
-                            ]
-                        }
-                    }
-                }
-            }
+            ]
+        },
+        "fifteen_points": {
+            "name": "Fifteen Points",
+            "index": 0,
+            "description": [
+                "Geef je de voorkeur aan objecten of mensen?",
+                "Wanneer je de installatie <em>Fifteen Points</em> door Random International bekijkt, krijgt deze vraag een nieuwe dimensie. Hoe snel weet je een menselijke figuur te herkennen tussen de door machines gerangschikte lichtpunten? ",
+                "Na een onderzoeksverblijf aan de Biomimetic Robotics Division van Harvard bouwde Random International deze robot sculptuur op basis van wetenschappelijke inzichten in het vermogen van onze hersenen om identiteit te onderscheiden uit een minimale hoeveelheid gegevens. ",
+                "Met behulp van aluminium rails, een roestvrijstalen structuur, op maat gemaakte software en LED’s wordt de levenloze machine door het menselijk brein getransformeerd tot een illusie van menselijkheid. ",
+                "Door de geraffineerde plaatsing van slechts 15 lichtpunten heeft ons brein 0,15 seconden nodig om een menselijke vorm op te roepen en onze eigen subjectiviteit waar te nemen via een elektronisch object. "
+            ]
+        },
+        "living_room": {
+            "name": "Living Room",
+            "index": 1,
+            "description": [
+                "Voel jij je gestuurd?",
+                "De <em>Living Room</em> installatie duikt in het concept van ruimte als een levende entiteit: een voortdurende verschuivende architectonische wereld die over een eigen waarnemingsvermogen beschikt.",
+                "Wanneer je in deze veranderlijke omgeving stapt, past de ruimte zijn paden aan, meenavigerend met de bezoekers. Terwijl de grens tussen het fysieke en het etherische vervaagt, roept het werk intrigerende vragen op: wordt je door de ruimte geleid of ben je ermee verwikkeld in een gezamenlijke choreografie? Deze dynamiek benadrukt de alomtegenwoordige spanning tussen menselijke controle en de agency van de machine. ",
+                "Door de <em>Living Room</em> te bouwen met op maat gemaakte elektronica en software die reageert op bewegingssensoren, wil Random International een omgeving creëren die ons uitnodigt om niet alleen contact te maken met de ruimte, maar ook met onze medebezoekers.",
+                "Kan de mens co-creëren met niet-menselijke entiteiten? Zullen we leiden, geleid worden of op organische wijze een autonome dans beginnen?"
+            ]
+        },
+        "Life_In_Our_Minds:_Motherflock_III": {
+            "name": "Life in our Minds: Motherflock III",
+            "index": 2,
+            "description": [
+                "Ben jij een deel van het geheel?",
+                "Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. </p><>Met <em>Motherflock</em> presenteert Random International een virtuele zwerm van origami-achtige ‘vogeloïde’ objecten. ",
+                "Elk object is gekoppeld aan een NFT met verschillende eigenschappen die zich uiten in beweging. Deze NFT’s, die toebehoren aan particuliere eigenaren van over de hele wereld, werden na hun aankoop gegenereerd door een algoritme.",
+                "De NFT-collecties van de respectieve kopers gaven elk digitaal object de vorm die het in de interactieve video-installatie aanneemt. ",
+                "<em>Motherflock</em> pioniert een methode voor gemeenschappelijk eigendom van publieke kunst die een brug slaat tussen de digitale- en de fysieke wereld.",
+                "De onderdelen van het kunstwerk zijn individueel eigendom maar samen vormen ze een nieuwe interactieve sculptuur. Wanneer je een wordt met de zwerm, werpt je aanwezigheid een digitale schaduw die een realtime reactie op het scherm uitlokt en het samenspel tussen de on- en offline wereld benadrukt. "
+            ]
+        },
+        "Swarm_Study_XIII": {
+            "name": "Swarm Study XIII",
+            "index": 3,
+            "description": [
+                "Wat beweegt jou? ",
+                "Geïnspireerd op de zelforganiserende bewegingen van groepen in de natuur – scholen vissen, zwermen vogels – heeft Random International in de loop van hun samenwerkingen ‘swarm study’ kunstwerken ontwikkeld.",
+                "<em>Swarm Study XIII</em> is een geprogrammeerde lichtsculptuur, geïnspireerd door de autonome iteraties van spreeuwen in vlucht. Onze waardering voor de natuurlijke wereld inspireert vaak de ontwikkeling van technologieën. Zo hebben het bestuderen van gedecentraliseerde macht en besluitvorming in de natuur de ontwikkeling van kunstmatige intelligentie, blockchain technologie en gesynchroniseerde drone shows geïnspireerd.",
+                "Deze biomimetica bestudeert onder andere natuurlijke patronen en komt in <em>Swarm Study XIII</em> tot uiting door vragen op te werpen over het synthetische versus het natuurlijke, of het individu versus de groep, in een weergave die ons samenleven weerspiegelt met intelligenties buiten de onze – of dat nu organisch of kunstmatig is.",
+                "Het hangende werk nodigt de kijker uit om onder de sculptuur te gaan zitten of zich ernaast toe te verhouden. Het daagt uit om architectuur te ervaren als iets dat synchroon loopt met de omringende natuurlijke fenomenen en de oorsprong van hoe we bewegen."
+            ]
+        },
+        "Our_Future_Selfs": {
+            "name": "Our Future Selves",
+            "index": 4,
+            "description": [
+                "Wat maakt jou ‘jou’?",
+                "<em>Our Future Selves </em>door Random International toont kijkers hun volledige weerspiegeling, driedimensionaal verdeeld door lichtpunten. Hoewel de resolutie van het beeld gereduceerd is, blijft er genoeg detail over om de menselijke vorm te herkennen. ",
+                "Op basis van onderzoek naar Cybernetics en ons evolutionaire instinct om gedrag waar te nemen door beweging, begon Random International te experimenteren met het simuleren van leven door middel van bewegende lichtpunten, waarbij details tot een minimum worden beperkt.<br>De ontmoeting roept vertrouwelijkheid op, evenals mysterie en het spoort aan tot een onbesliste dans met ons zelfbeeld.",
+                "Zie hoe de cruciale details die jou ‘jou’ maken door de abstractie heen schemeren. Door verschillende bewegingspatronen bevraagt en herdefinieert Our Future Selves uiteindelijk hoe we onszelf zien in dit voortdurend veranderende digitale tijdperk. "
+            ]
+        },
+        "Presence_And_Erasure": {
+            "name": "Presence and Erasure",
+            "index": 5,
+            "description": [
+                "Voel jij je gezien?",
+                "Het digitale kunstwerk <em>Presence and Erasure </em> door Random International maakt tijdelijke portretten van voorbijgangers. Zonder de deelname van de voorbijkomende menselijke lichamen is het canvas leeg. ",
+                "Al scannend zoekt het kunstwerk voortdurend naar gezichten in de omgeving en fotografeert deze. Wanneer het algoritme van het kunstwerk een zekere kwaliteit in een foto vaststelt, dan wordt dit beeld tijdelijk op grote schaal geprint door een fotochroom oppervlak bloot te stellen aan lichtimpulsen.",
+                "In een betoverende dans van lichtjes die een beeld van ons vormen onder een glazen oppervlak, worden we uitgenodigd om na te denken over onze kijk is op bewakingstechnologie, onze deelname eraan, en onze acceptatie of afwijzing ervan – van het ontgrendelen van onze telefoons met gezichtsherkenning en het voorbijlopen van bewakingscamera’s in de openbare ruimte tot het uploaden van onze selfies op sociale media – Presence and Erasure stelt de vraag of de kick van het zien van onszelf de schending van onze privacy maskeert.",
+                "Ga de verbintenis aan met dit indringende kunstwerk dat de onomkeerbare interconnectiviteit tussen mens en machine belicht. "
+            ]
         }
     },
     "tickets": {
