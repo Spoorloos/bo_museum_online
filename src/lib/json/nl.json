@@ -5,15 +5,15 @@
         "tickets": "Kaarten"
     },
     "footer": {
-		"follow_us_at": "Volg ons op",
-		"reach_us_at": "Berijk ons via",
-		"visit_us_at": "Bezoek ons bij"
-	},
+        "follow_us_at": "Volg ons op",
+        "reach_us_at": "Berijk ons via",
+        "visit_us_at": "Bezoek ons bij"
+    },
     "home": {
         "purchase": "Koop kaarten",
         "reviews": {
-			"show_more": "laat meer zien"
-		}
+            "show_more": "laat meer zien"
+        }
     },
     "about_us": {
         "header": {
@@ -31,17 +31,34 @@
             "team": "Een team verbonden door passie voor kunst en de zoektocht naar vooruitgang. We bundelen onze krachten om met mediakunst de toekomst te ontdekken."
         }
     },
+    "whats_on": {
+        "random_international": {
+            "name": "Random International",
+            "index": 0,
+            "description": [
+                "Vanaf 27 september kun je het werk van de postdigitale kunstgroep Random International bekijken in Nxt Museum. De tentoonstelling toont nieuw voltooide werken en andere die nog nooit eerder in Europa zijn vertoond  en volgt het creatieve proces van de kunstenaars, van 2006 tot vandaag.",
+                "De tentoonstelling is samengesteld door Bogomir Doringer en belicht het vakmanschap binnen en de contextuele achtergronden van een overzicht van hun werk.",
+                "<em>“Voor wat onze derde tentoonstelling zal zijn, hebben we besloten diep in het oeuvre en de denkwijze van één kunstgroep te duiken. De kunstwerken van Random International zijn creatieve, collectieve dansen tussen het publiek en technologie, ze creëren verhalen in onze gedachten over wat het betekent om mens te zijn en samen te leven.”</em><br>– Bogomir Doringer, Curator",
+                "Bereid je voor om betoverd te worden door zes grootschalige werken, waaronder hun betoverende ‘Living Room’-installatie in samenwerking met Aorist, na het succes tijdens Miami Art Week in december 2022.",
+                "<strong>Over de kunstenaars:</strong>",
+                "Opgericht in 2005 is <a href=\"https://www.random-international.com/\" target=\"_blank\" rel=\"noopener\">Random International</a> een postdigitale kunstgroep die de impact van technologische ontwikkeling op de menselijke conditie onderzoekt. Het meest bekend om hun grootschalige interactieve installaties, werkt de groep in een scala aan media, waaronder beeldhouwkunst, licht, kinetica, video, drukwerk en geluid. Geleid door de oprichters Hannes Koch (geb. 1975, Duitsland) en Florian Ortkrass (geb. 1975, Duitsland), heeft de groep een studio in Londen en bestaat uit een wereldwijd team van complementair talent.",
+                "Experimenteel van aard wordt de praktijk van Random International gevoed door onderzoek en wetenschappelijke ontdekking. De groep streeft ernaar de vraag te verbreden wat het betekent om vandaag de dag in leven te zijn door te experimenteren met hoe we ons verbinden – met verschillende vormen van leven, met verschillende wereldbeelden en met elkaar.",
+                "<strong>Extra kredieten:<br></strong><em>Studies of Apparent Behavior</em>, Fritz Heider en Marianne Simmel, 1943<br>Digitale HD-video van 16mm reversal film<br>Met dank aan: Moving Image Research Collections, University of South Carolina (gift by Karl Heider)"
+            ],
+            "": ""
+        }
+    },
     "tickets": {
-		"choose": "Kies je kaarten",
-		"name": "Naam",
-		"price": "Prijs",
-		"quantity": "Aantal",
-		"checkout": "Ga door",
-		"tickets": {
-			"adult": "Volwassenen",
-			"student": "Student",
-			"youth": "Jongeren",
-			"children": "Kinderen"
-		}
-	}
+        "choose": "Kies je kaarten",
+        "name": "Naam",
+        "price": "Prijs",
+        "quantity": "Aantal",
+        "checkout": "Ga door",
+        "tickets": {
+            "adult": "Volwassenen",
+            "student": "Student",
+            "youth": "Jongeren",
+            "children": "Kinderen"
+        }
+    }
 }
