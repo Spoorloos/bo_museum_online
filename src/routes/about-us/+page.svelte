@@ -13,7 +13,7 @@
 <article id="about-us-page-content">
     <h1 id="title">{$_("about_us.name")}</h1>
     {#each $_("about_us.text") as { header, text }}
-        <div class="paragraph">                       
+        <div class="paragraph">
             <p class="side-header">{header}</p>
             <p class="main-text">{text}</p>
         </div>
@@ -21,15 +21,20 @@
     <!-- <p>{test[0]}</p> -->
 </article>
 
-
 <style>
-    .paragraph{
+    .paragraph {
         display: flex;
+        padding-bottom: 50px;
     }
 
-    .side-header{
-        text-orientation: mixed;
-        /* writing-mode: horizontal-tb; */
+    .side-header {
+        writing-mode: sideways-lr;
+    }
+
+    .main-text {
+        font-size: 1.5rem;
+        max-width: 40%;
+        line-height: 2rem;
     }
 
     #about-us-page-content {
