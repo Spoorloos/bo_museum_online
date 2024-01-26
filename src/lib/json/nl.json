@@ -16,20 +16,39 @@
         }
     },
     "about_us": {
-        "header": {
-            "statement": "De kunst van morgen, vandaag",
-            "what_is": "Wat Is Nxt?",
-            "where": "De Ruimte",
-            "mission": "Onze Missie",
-            "team": "Ons Team"
-        },
-        "text": {
-            "statement": "Geluid. Licht. Beweging. Onze zintuigen registreren veranderingen in onze omgeving voordat we het doorhebben. Onbewust. Instinctief. Geen intentie, noch controle. Het zijn reacties die teruggaan naar hoe het menselijk lichaam is geprogrammeerd. Kunst prikkelt de zintuigen, communiceert ideeën, emoties en verhalen; beweegt onze blik en brengt ons nieuwe perspectieven.",
-            "what_is": "Nxt Museum is het eerste museum in Nederland dat zich volledig richt op mediakunst. We exposeren kunstwerken die gebruik maken van moderne technologieën van het heden en van de toekomst. Omdat kunst de tijdsgeest weerspiegelt, geloven wij dat de meest innovatieve kunst ons de mogelijkheid geeft om op de impact van technologische ontwikkelingen te reflecteren. Een moment van bezinning in een realiteit die alsmaar sneller doorontwikkelt.",
-            "where": "Het museum is gevestigd in een voormalige productiestudio in het hart van Amsterdam-Noord – een plek die zich bij uitstek leent voor het ontdekken, maken en tentoonstellen van mediakunst. Deze vorm van kunst experimenteert met technologische mogelijkheden en toepassingen; dynamisch en niet gebonden aan een vorm. Onze  ruimte biedt een broedplaats voor deze vorm van kunst; een plek waar verschillende kunststromingen en wetenschappen samenkomen en tentoongesteld kunnen worden. Een plek voor live performances, educatie, creatie, zang, dans en meer.",
-            "mission": "Het is onze missie om vooruitstrevende vormen van creativiteit te stimuleren. Wij zien de toekomst als een van de meest fascinerende concepten van het menselijk brein. Het is een onuitputtelijke bron van inspiratie die ons in de greep houdt en de vraag oproept: ‘What’s Nxt?’. Met het oog op technologische en sociale ontwikkelingen is deze vraag een groter mysterie dan ooit tevoren. Ga je mee op zoek naar het antwoord?",
-            "team": "Een team verbonden door passie voor kunst en de zoektocht naar vooruitgang. We bundelen onze krachten om met mediakunst de toekomst te ontdekken."
-        }
+        "name":"De kunst van morgen, vandaag",
+        "team": [
+			{
+				"name": "jannes",
+				"title": "weeb"
+			},
+			{
+				"name": "mick",
+				"title": "racist(as in he drives cars)(deze grap werkt allen in het engels)"
+			}
+		],
+        "text": [
+            {
+                "header": "De kunst van morgen, vandaag",
+                "text": "Geluid. Licht. Beweging. Onze zintuigen registreren veranderingen in onze omgeving voordat we het doorhebben. Onbewust. Instinctief. Geen intentie, noch controle. Het zijn reacties die teruggaan naar hoe het menselijk lichaam is geprogrammeerd. Kunst prikkelt de zintuigen, communiceert ideeën, emoties en verhalen; beweegt onze blik en brengt ons nieuwe perspectieven."
+            },
+            {
+                "header": "Wat Is Nxt?",
+                "text": "Nxt Museum is het eerste museum in Nederland dat zich volledig richt op mediakunst. We exposeren kunstwerken die gebruik maken van moderne technologieën van het heden en van de toekomst. Omdat kunst de tijdsgeest weerspiegelt, geloven wij dat de meest innovatieve kunst ons de mogelijkheid geeft om op de impact van technologische ontwikkelingen te reflecteren. Een moment van bezinning in een realiteit die alsmaar sneller doorontwikkelt."
+            },
+            {
+                "header": "De Ruimte",
+                "text": "Het museum is gevestigd in een voormalige productiestudio in het hart van Amsterdam-Noord – een plek die zich bij uitstek leent voor het ontdekken, maken en tentoonstellen van mediakunst. Deze vorm van kunst experimenteert met technologische mogelijkheden en toepassingen; dynamisch en niet gebonden aan een vorm. Onze  ruimte biedt een broedplaats voor deze vorm van kunst; een plek waar verschillende kunststromingen en wetenschappen samenkomen en tentoongesteld kunnen worden. Een plek voor live performances, educatie, creatie, zang, dans en meer."
+            },
+            {
+                "header": "Onze Missie",
+                "text": "Het is onze missie om vooruitstrevende vormen van creativiteit te stimuleren. Wij zien de toekomst als een van de meest fascinerende concepten van het menselijk brein. Het is een onuitputtelijke bron van inspiratie die ons in de greep houdt en de vraag oproept: ‘What’s Nxt?’. Met het oog op technologische en sociale ontwikkelingen is deze vraag een groter mysterie dan ooit tevoren. Ga je mee op zoek naar het antwoord?"
+            },
+            {
+                "header": "Ons Team",
+                "text": "Een team verbonden door passie voor kunst en de zoektocht naar vooruitgang. We bundelen onze krachten om met mediakunst de toekomst te ontdekken."
+            }
+        ]
     },
     "whats_on": {
         "random_international": {
