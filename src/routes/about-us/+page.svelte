@@ -1,18 +1,43 @@
 <script>
-    import { _ } from "svelte-i18n";
+    import { _, t, format } from "svelte-i18n";
+
+    console.log($_("about_us"));
+    let test = $_("about_us.test");
+
+    // let header = $_("about_us.header")
+    // let text = $_("about_us.text")
+
+    // let content = { header: $_("about_us.header"), text:$_("about_us.text")};
 </script>
 
-<section id="about-us-page-content">
-    <h1>{ $_("header.about_us") }</h1>
-</section>
+<article id="about-us-page-content">
+    <h1 id="title">{$_("about_us.name")}</h1>
+    {#each $_("about_us.text") as { header, text }}
+        <div class="paragraph">                       
+            <p class="side-header">{header}</p>
+            <p class="main-text">{text}</p>
+        </div>
+    {/each}
+    <!-- <p>{test[0]}</p> -->
+</article>
 
-<style>    
+
+<style>
+    .paragraph{
+        display: flex;
+    }
+
+    .side-header{
+        text-orientation: mixed;
+        /* writing-mode: horizontal-tb; */
+    }
+
     #about-us-page-content {
         padding: var(--page-spacing);
         box-sizing: border-box;
     }
 
-    h1 {
+    h1#title {
         margin: 0;
         font-size: 3rem;
     }
