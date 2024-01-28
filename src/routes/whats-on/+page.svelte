@@ -51,8 +51,12 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
-            {#each $_("whats_on.random_international.fifteen_points.description") as item}
-                <p>{item}</p>
+            {#each $_("whats_on.random_international.fifteen_points.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active">{item}</p>
+                {:else}
+                    <p>{item}</p>
+                {/if}
             {/each}
         </div>
 
