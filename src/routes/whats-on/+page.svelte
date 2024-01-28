@@ -42,8 +42,8 @@
         {/each}
     </article>
     <CardSelection>
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.fifteen_points.name")}
             </h2>
             <img
@@ -53,15 +53,15 @@
             />
             {#each $_("whats_on.random_international.fifteen_points.description") as item, i}
                 {#if i == 0}
-                    <p class="show-when-active">{item}</p>
+                    <p class="show-when-active paragraph">{item}</p>
                 {:else}
-                    <p>{item}</p>
+                    <p class="paragraph">{item}</p>
                 {/if}
             {/each}
         </div>
 
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.living_room.name")}
             </h2>
             <img
@@ -69,13 +69,17 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
-            {#each $_("whats_on.random_international.living_room.description") as item}
-                <p>{item}</p>
+            {#each $_("whats_on.random_international.living_room.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active paragraph">{item}</p>
+                {:else}
+                    <p class="paragraph">{item}</p>
+                {/if}
             {/each}
         </div>
 
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_(
                     "whats_on.random_international.Life_In_Our_Minds:_Motherflock_III.name",
                 )}
@@ -85,10 +89,17 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
+            {#each $_("whats_on.random_international.Life_In_Our_Minds:_Motherflock_III.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active paragraph">{item}</p>
+                {:else}
+                    <p class="paragraph">{item}</p>
+                {/if}
+            {/each}
         </div>
 
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.Swarm_Study_XIII.name")}
             </h2>
             <img
@@ -96,10 +107,17 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
+            {#each $_("whats_on.random_international.Swarm_Study_XIII.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active paragraph">{item}</p>
+                {:else}
+                    <p class="paragraph">{item}</p>
+                {/if}
+            {/each}
         </div>
 
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.Our_Future_Selfs.name")}
             </h2>
             <img
@@ -107,10 +125,17 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
+            {#each $_("whats_on.random_international.Our_Future_Selfs.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active paragraph">{item}</p>
+                {:else}
+                    <p class="paragraph">{item}</p>
+                {/if}
+            {/each}
         </div>
 
-        <div>
-            <h2 class="card-title">
+        <div class="content">
+            <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.Presence_And_Erasure.name")}
             </h2>
             <img
@@ -118,25 +143,13 @@
                 alt="card"
                 src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
             />
-        </div>
-
-        <div>
-            <h2 class="card-title">Tentoonstellaaaaing #1</h2>
-            <img
-                class="card-img"
-                alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
-            />
-        </div>
-        <div>
-            <h2 class="card-title">Tentoonstellaaaing #2</h2>
-            <p class="show-when-active">nealsdjfuoargg???</p>
-            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-            <img
-                class="card-img"
-                alt="card"
-                src="https://cdn11.bigcommerce.com/s-3uewkq06zr/images/stencil/1280x1280/products/230/406/blue_b__05623.1492487362.png"
-            />
+            {#each $_("whats_on.random_international.Presence_And_Erasure.description") as item, i}
+                {#if i == 0}
+                    <p class="show-when-active paragraph">{item}</p>
+                {:else}
+                    <p class="paragraph">{item}</p>
+                {/if}
+            {/each}
         </div>
     </CardSelection>
 </section>
