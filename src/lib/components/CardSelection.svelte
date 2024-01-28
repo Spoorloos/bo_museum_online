@@ -43,10 +43,11 @@
         {#each headers as { title, img, index }}
             <button
                 type="button"
-                style="background-image: url({img}); opacity: {selectedCard === index ? "1" : "0.75"}"
+                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {selectedCard === index ? "1" : "0.75"}"
                 on:click={ () => selectCard(index) }
             >
                 <h2>{ title }</h2>
+                <!-- <p style="opacity: {selectedCard === index ? "1" : "0"}">yes</p> -->
             </button>
         {/each} 
     </div>
@@ -58,9 +59,10 @@
 <style>
     .header {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: var(--page-spacing);
-        height: 10rem;
+        /* height: 30rem; */
         transition: scale 0.3s;
     }
 
