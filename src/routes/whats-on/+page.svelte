@@ -14,6 +14,15 @@
             storage.push(eval("{`" + element + "`}"));
         });
     }
+
+    //TODO in 5 years: be able to add a new article in json and have it automaticly generate here.
+
+    /*let content = $_("whats_on.random_international");
+    delete content.name;
+    delete content.description;
+    delete content.index;
+    console.log(content);*/
+
     // String.prototype.interpolate = function (params) {
     //     const names = Object.keys(params);
     //     const vals = Object.values(params);
@@ -33,6 +42,80 @@
         {/each}
     </article>
     <CardSelection>
+        <div>
+            <h2 class="card-title">
+                {$_("whats_on.random_international.fifteen_points.name")}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+            {#each $_("whats_on.random_international.fifteen_points.description") as item}
+                <p>{item}</p>
+            {/each}
+        </div>
+
+        <div>
+            <h2 class="card-title">
+                {$_("whats_on.random_international.living_room.name")}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+            {#each $_("whats_on.random_international.living_room.description") as item}
+                <p>{item}</p>
+            {/each}
+        </div>
+
+        <div>
+            <h2 class="card-title">
+                {$_(
+                    "whats_on.random_international.Life_In_Our_Minds:_Motherflock_III.name",
+                )}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+        </div>
+
+        <div>
+            <h2 class="card-title">
+                {$_("whats_on.random_international.Swarm_Study_XIII.name")}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+        </div>
+
+        <div>
+            <h2 class="card-title">
+                {$_("whats_on.random_international.Our_Future_Selfs.name")}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+        </div>
+
+        <div>
+            <h2 class="card-title">
+                {$_("whats_on.random_international.Presence_And_Erasure.name")}
+            </h2>
+            <img
+                class="card-img"
+                alt="card"
+                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+            />
+        </div>
+
         <div>
             <h2 class="card-title">Tentoonstellaaaaing #1</h2>
             <img
