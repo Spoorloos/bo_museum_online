@@ -21,7 +21,8 @@ body {
     margin: 0;
     color: white;
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'Wix Madefor Display';
+    font-weight: 200;
     overflow-x: hidden;
 }
 

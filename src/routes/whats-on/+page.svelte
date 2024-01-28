@@ -32,7 +32,7 @@
     // console.log(template);
     // console.log(context);
 </script>
-
+<p>TF</p>
 <section id="whats-on-page-content">
     <h1>{$_("header.whats_on")}</h1>
     <article class="content">
@@ -171,6 +171,7 @@
 
     .paragraph {
         font-size: 1.5rem;
+        font-family: Segoe UI;
         max-width: 800px;
         width: 60%;
         flex: 1 0 60%;
