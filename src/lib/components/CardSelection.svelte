@@ -103,5 +103,4 @@
             transition: opacity 0.3s;
         }
     }
-
 </style>
