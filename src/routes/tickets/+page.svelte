@@ -58,6 +58,7 @@
         padding: var(--page-spacing);
         box-sizing: border-box;
         height: calc(100vh - var(--header-height) - var(--page-spacing)*2);
+        font-family: Segoe UI;
     }
 
     h1 {

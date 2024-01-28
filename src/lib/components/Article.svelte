@@ -23,6 +23,7 @@
 <style>
     .article {
         padding: 25px;
+        --direction: 0;
     }
 
     .article.left {

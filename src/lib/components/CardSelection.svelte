@@ -83,10 +83,12 @@
         display: flex;
         justify-content: center;
         color: white;
+        background-size: contain;
         transition-duration: 0.3s;
         transition-property: translate scale opacity;
 
         & > h2 {
+            text-shadow: 2px 2px 2px black;
             margin: 0;
         }
 
