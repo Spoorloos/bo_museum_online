@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from "svelte";
+    import { onMount } from "svelte";
 
     let headers = [];
     let selectedCard = 0;
@@ -9,12 +9,19 @@
 
         // Hide all non-selected cards
         cards.forEach((card, i) => {
-            if (i === index) { // ew 
-                setTimeout(() => {card.style.display = "block"}, 200)
-                setTimeout(() => {card.style.opacity = "1"}, 300);
+            if (i === index) {
+                // ew
+                setTimeout(() => {
+                    card.style.display = "block";
+                }, 200);
+                setTimeout(() => {
+                    card.style.opacity = "1";
+                }, 300);
             } else {
                 card.style.opacity = "0";
-                setTimeout(() => {card.style.display = "none"}, 300);
+                setTimeout(() => {
+                    card.style.display = "none";
+                }, 300);
             }
         });
 
@@ -24,12 +31,12 @@
     onMount(() => {
         // Create headers
         const cards = document.querySelectorAll(".content > div");
-        
+
         headers = Array.from(cards).map((card, index) => ({
             img: card.querySelector(".card-img").src,
             title: card.querySelector(".card-title").innerText,
             // content: card.querySelector(".show-when-active").innerText,
-            index
+            index,
         }));
         console.log(headers);
 
@@ -43,16 +50,19 @@
         {#each headers as { title, img, index }}
             <button
                 type="button"
-                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {selectedCard === index ? "1" : "0.75"}"
-                on:click={ () => selectCard(index) }
+                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {selectedCard ===
+                index
+                    ? '1'
+                    : '0.75'}"
+                on:click={() => selectCard(index)}
             >
-                <h2>{ title }</h2>
+                <h2>{title}</h2>
                 <!-- <p style="opacity: {selectedCard === index ? "1" : "0"}">yes</p> -->
             </button>
-        {/each} 
+        {/each}
     </div>
     <div class="content">
-        <slot/>
+        <slot />
     </div>
 </div>
 
@@ -76,8 +86,10 @@
         transition-duration: 0.3s;
         transition-property: translate scale opacity;
 
-        & > h2 { margin: 0; }
-        
+        & > h2 {
+            margin: 0;
+        }
+
         &:hover {
             translate: 0 -10px;
             scale: 1.05;
@@ -89,4 +101,5 @@
             transition: opacity 0.3s;
         }
     }
+
 </style>

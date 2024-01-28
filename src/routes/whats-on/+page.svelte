@@ -42,6 +42,7 @@
         {/each}
     </article>
     <CardSelection>
+        <!-- the following isn't pretty but least it works.  -->
         <div class="content">
             <h2 class="card-title paragraph">
                 {$_("whats_on.random_international.fifteen_points.name")}
@@ -49,7 +50,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/fifteen-points.png"
             />
             {#each $_("whats_on.random_international.fifteen_points.description") as item, i}
                 {#if i == 0}
@@ -67,7 +68,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/Living-Room-710x709.png"
             />
             {#each $_("whats_on.random_international.living_room.description") as item, i}
                 {#if i == 0}
@@ -87,7 +88,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/Life_In_Our_Minds.png"
             />
             {#each $_("whats_on.random_international.Life_In_Our_Minds:_Motherflock_III.description") as item, i}
                 {#if i == 0}
@@ -105,7 +106,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/swarm-study.png"
             />
             {#each $_("whats_on.random_international.Swarm_Study_XIII.description") as item, i}
                 {#if i == 0}
@@ -123,7 +124,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/Our-Future-Selves-Random-International-710x710.jpg"
             />
             {#each $_("whats_on.random_international.Our_Future_Selfs.description") as item, i}
                 {#if i == 0}
@@ -141,7 +142,7 @@
             <img
                 class="card-img"
                 alt="card"
-                src="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png"
+                src="img/whats-on/presence and erasure.png"
             />
             {#each $_("whats_on.random_international.Presence_And_Erasure.description") as item, i}
                 {#if i == 0}
