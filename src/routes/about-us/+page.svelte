@@ -7,17 +7,16 @@
     <h1 id="title">{$_("header.about_us")}</h1>
 
     <div id="articles">
-        {#each $_("about_us.text") as { header, text }, i }
+        {#each $_("about_us") as { header, text }, i }
             <Article
                 title={header}
                 content={text}
                 direction={ (i&1) ? "right" : "left" }
                 titleStyle="font-size: 2.5rem;"
                 style={`
-                    max-width: 60%; 
                     border: none;
+                    max-width: 60%; 
                     ${ (i&1) ? "align-self: flex-end;" : "" };
-                    ${ i == 0 ? "align-self: center" : "" };
                 `}/>
         {/each}
     </div>
