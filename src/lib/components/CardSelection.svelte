@@ -11,17 +11,11 @@
         cards.forEach((card, i) => {
             if (i === index) {
                 // ew
-                setTimeout(() => {
-                    card.style.display = "block";
-                }, 200);
-                setTimeout(() => {
-                    card.style.opacity = "1";
-                }, 300);
+                setTimeout(() => card.style.display = "block", 200);
+                setTimeout(() => card.style.opacity = "1", 300);
             } else {
                 card.style.opacity = "0";
-                setTimeout(() => {
-                    card.style.display = "none";
-                }, 300);
+                setTimeout(() => card.style.display = "none", 300);
             }
         });
 
@@ -35,10 +29,8 @@
         headers = Array.from(cards).map((card, index) => ({
             img: card.querySelector(".card-img").src,
             title: card.querySelector(".card-title").innerText,
-            // content: card.querySelector(".show-when-active").innerText,
-            index,
+            index
         }));
-        console.log(headers);
 
         // Select first card
         selectCard(0);
@@ -50,14 +42,12 @@
         {#each headers as { title, img, index }}
             <button
                 type="button"
-                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {selectedCard ===
-                index
-                    ? '1'
-                    : '0.75'}"
+                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {
+                    selectedCard === index ? '1' : '0.75'
+                }"
                 on:click={() => selectCard(index)}
             >
                 <h2>{title}</h2>
-                <!-- <p style="opacity: {selectedCard === index ? "1" : "0"}">yes</p> -->
             </button>
         {/each}
     </div>
