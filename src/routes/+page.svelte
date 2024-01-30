@@ -2,7 +2,6 @@
 <script>
     import Article from "$lib/components/Article.svelte";
     import ReviewCard from "$lib/components/ReviewCard.svelte";
-    import CustomButton from "$lib/components/CustomButton.svelte";
 
     import reviews from "$lib/json/reviews.json";
     import { inview } from "svelte-inview";
@@ -25,8 +24,8 @@
         style="max-width: 60%;"
         titleStyle="font-size: 6rem;"/>
 
-    <a id="purchase" class="fade" href="{base}/tickets">
-        <CustomButton noHover>{ $_("home.purchase") }</CustomButton>
+    <a id="purchase" class="fade fill-button no-hover" href="{base}/tickets">
+        { $_("home.purchase") }
     </a>
 
     <a id="reviews-arrow" href="#reviews">

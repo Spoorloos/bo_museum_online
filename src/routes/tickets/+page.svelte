@@ -1,6 +1,5 @@
 <script>
     import { _ } from "svelte-i18n";
-    import CustomButton from "$lib/components/CustomButton.svelte";
 
     $: tickets = [
         { name: $_("tickets.tickets.adult"), price: 20 },
@@ -40,7 +39,7 @@
                 </div>
     
                 <div id="ticket-checkout">
-                    <CustomButton noHover>{ $_("tickets.checkout") }</CustomButton>
+                    <button type="button" class="fill-button no-hover">{ $_("tickets.checkout") }</button>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ register("nl", () => import('$lib/json/nl.json'))
 
 init({ fallbackLocale: "en", initialLocale: "en" });
 
-// Set prerender
+// Set page options
 export const prerender = true;
 
 // Load function

@@ -1,7 +1,6 @@
 <!-- Script -->
 <script>
     import CustomSelect from "./CustomSelect.svelte";
-    import CustomButton from "./CustomButton.svelte";
 
     import { locale, _ } from "svelte-i18n";
     import { base } from "$app/paths";
@@ -18,17 +17,9 @@
             bind:selected={ $locale }
             options={ [ "en", "nl" ] }/>
 
-        <a tabindex="-1" href="{base}/whats-on/">
-            <CustomButton>{ $_("header.whats_on") }</CustomButton>
-        </a>
-    
-        <a tabindex="-1" href="{base}/about-us/">
-            <CustomButton>{ $_("header.about_us") }</CustomButton>
-        </a>
-
-        <a tabindex="-1" href="{base}/tickets/">
-            <CustomButton>{ $_("header.tickets") }</CustomButton>
-        </a>
+        <a href="{base}/whats-on/" class="fill-button">{ $_("header.whats_on") }</a>
+        <a href="{base}/about-us/" class="fill-button">{ $_("header.about_us") }</a>
+        <a href="{base}/tickets/" class="fill-button">{ $_("header.tickets") }</a>
     </nav>
 </header>
 
