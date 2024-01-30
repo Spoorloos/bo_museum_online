@@ -1,5 +1,5 @@
 <script>
-    import { _ } from "svelte-i18n";
+    import { _, json } from "svelte-i18n";
     import Article from "$lib/components/Article.svelte";
 </script>
 
@@ -7,7 +7,7 @@
     <h1 id="title">{$_("header.about_us")}</h1>
 
     <div id="articles">
-        {#each $_("about_us") as { header, text }, i }
+        {#each $json("about_us") as { header, text }, i }
             <Article
                 title={header}
                 content={text}
