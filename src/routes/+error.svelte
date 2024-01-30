@@ -3,9 +3,7 @@
 </script>
 
 <section>
-    <div id="dino-game">
-        <div id="dino"></div>
-    </div>
+    <img src="img/logo-and-title.png" alt="logo"/>
     <h1>{$page.status}: {$page.error.message}</h1>
 </section>
 
@@ -27,18 +25,7 @@
         margin-top: var(--page-spacing);
     }
 
-    #dino-game {
-        background-color: gray;
+    img {
         width: 100%;
-        height: 13rem;
-        border-bottom: white solid thin;
-    }
-
-    #dino {
-        width: 2rem;
-        height: 2rem;
-        background-color: white;
-        position: relative;
-        top: calc(100% - 2rem);
     }
 </style>
