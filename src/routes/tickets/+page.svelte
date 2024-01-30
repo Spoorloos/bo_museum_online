@@ -90,8 +90,8 @@
     #ticket-selection-list {
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        padding: 2% 0;
+        gap: 1rem;
+        padding: 1rem 0;
         border-bottom: thin solid white;
     }
 
@@ -127,13 +127,13 @@
     }
 
     #ticket-selection-header {
-        padding: 2% 0;
+        padding-bottom: 0.5rem;
         border-bottom: solid thin white;
         font-weight: bold;
     }
 
     #ticket-checkout {
-        margin-top: 2%;
+        margin-top: 0.5rem;
         text-align: right;
     }
 </style>

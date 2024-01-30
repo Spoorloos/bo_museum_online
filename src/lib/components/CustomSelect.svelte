@@ -30,9 +30,9 @@
         text-align: center;
         height: calc(100% - 1px);
         color: white;
-        padding: 15px;
+        padding: 1rem;
         box-sizing: border-box;
-        font: bold 13px sans-serif;
+        font: bold 0.8rem sans-serif;
     }
 
     .options {
@@ -56,7 +56,7 @@
         border: 0;
         width: 100%;
         padding: 10px;
-        font: bold 13px sans-serif;
+        font: bold 0.8rem sans-serif;
         transition: background-color 0.3s, color 0.3s;
 
         &:hover { background-color: rgba(0, 0, 0, 0.2); }

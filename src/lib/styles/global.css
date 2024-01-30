@@ -64,8 +64,8 @@ a {
     color: white;
     background-color: transparent;
     border: none;
-    font: bold 13px sans-serif;
-    padding: 15px;
+    font: bold 0.8rem sans-serif;
+    padding: 1rem;
     position: relative;
     transition: color 0.3s;
     z-index: 1;
