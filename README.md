@@ -1,4 +1,6 @@
 # Eindopdracht BO Periode 2 Museum Online
+## Mick Negenman, Jannes Veuger
 
-Hier is de link naar de live website op ma-cloud:
+Dit is onze beroepsopdracht voor periode 2.
+
 https://36791.hosts2.ma-cloud.nl/museum-online/
