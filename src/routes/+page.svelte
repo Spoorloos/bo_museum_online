@@ -66,6 +66,7 @@
             linear-gradient(to bottom, black, transparent 30%),
             linear-gradient(to top, black, transparent 30%),
             url("/img/background.jpg") no-repeat;
+        background-size: cover;
     }
 
     #purchase {
