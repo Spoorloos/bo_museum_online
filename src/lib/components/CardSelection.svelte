@@ -42,9 +42,8 @@
         {#each headers as { title, img, index }}
             <button
                 type="button"
-                style="aspect-ratio: 16/9; background-image: url({img}); opacity: {
-                    selectedCard === index ? '1' : '0.75'
-                }"
+                style="background-image: url({ img });"
+                class:selected={ selectedCard === index }
                 on:click={() => selectCard(index)}
             >
                 <h2>{title}</h2>
@@ -76,6 +75,8 @@
         background-size: contain;
         transition-duration: 0.3s;
         transition-property: translate scale opacity;
+        aspect-ratio: 16/9;
+        opacity: 0.75;
 
         & > h2 {
             text-shadow: 2px 2px 2px black;
@@ -83,8 +84,12 @@
         }
 
         &:hover {
-            translate: 0 -10px;
             scale: 1.05;
+        }
+
+        &.selected {
+            opacity: 1;
+            translate: 0 -10px;
         }
     }
 

@@ -11,7 +11,7 @@
 
 <div class="article fade-slide-blur {direction}" {style}>
     <div>
-        <h1 style={titleStyle}>{title}</h1>
+        <h2 style={titleStyle}>{title}</h2>
         <p style={contentStyle}>{content}</p>
     </div>
 
@@ -30,7 +30,7 @@
         --direction: translateX(-50px);
         border-left: 1px solid white;
 
-        & h1::first-letter {
+        & h2::first-letter {
             margin-left: -0.05em;
         }
     }
@@ -41,7 +41,7 @@
         text-align: end;
     }
 
-    h1 {
+    h2 {
         margin: 0;
         font-family: sans-serif;
     }

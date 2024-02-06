@@ -4,9 +4,9 @@
     import ReviewCard from "$lib/components/ReviewCard.svelte";
 
     import reviews from "$lib/json/reviews.json";
+    import { base } from "$app/paths";
     import { inview } from "svelte-inview";
     import { _ } from "svelte-i18n";
-    import { base } from "$app/paths";
 
     let reviewsEnteredView = false;
 

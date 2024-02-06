@@ -1,8 +1,8 @@
 import { waitLocale, register, init } from "svelte-i18n";
 
 // Register languages
-register("en", () => import('$lib/json/en.json'))
-register("nl", () => import('$lib/json/nl.json'))
+register("en", () => import("$lib/json/en.json"))
+register("nl", () => import("$lib/json/nl.json"))
 
 init({ fallbackLocale: "en", initialLocale: "en" });
 

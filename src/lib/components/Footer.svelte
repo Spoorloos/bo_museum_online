@@ -24,11 +24,11 @@
         </div>
         <div>
             <h2>{ $_("footer.visit_us_at") }</h2>
-            <p class="address">
+            <address>
                 Nxt Museum<br>
                 Asterweg 22<br>
                 1031HP Amsterdam
-            </p>
+            </address>
             <a class="google-maps" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c6093179f05169:0xb7418dbe6d40beb6?sa=X&ved=2ahUKEwjdiNqHme-DAxVw7LsIHSNNC2UQ4kB6BAgCEAA">Google Maps</a>
         </div>
     </div>
@@ -76,7 +76,7 @@
         }
     }
 
-    .address {
+    address {
         margin: 0;
         text-align: center;
         font-size: 1.2rem;
