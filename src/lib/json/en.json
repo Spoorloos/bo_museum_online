@@ -13,7 +13,8 @@
 		"hero_text": "Movement. Sound. Light. A sudden change in your surroundings can trigger an inescapable reaction – a primal response. It’s involuntary. It’s irrational. It’s natural. We can’t control it, it’s how the human body is wired. Art takes hold of our senses. It transmits ideas, emotions, and stories. Morphing our perceptions and synthesising them into new perspectives.",
 		"purchase": "Purchase tickets",
 		"reviews": {
-			"show_more": "show more"
+			"show_more": "show more",
+			"hide": "hide"
 		}
 	},
 	"whats_on": {

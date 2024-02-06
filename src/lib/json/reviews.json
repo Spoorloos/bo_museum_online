@@ -1,17 +1,17 @@
 [
     {
         "name": "Peter",
-        "content": "Lorem Ipsum",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus neque soluta adipisci consequuntur, sit hic culpa veritatis voluptates temporibus ea dolor vel impedit eligendi nisi dolores iusto sequi sint facilis laborum. Quod enim atque ea soluta. Dolorem quam quas magnam, porro consequuntur doloribus nisi nesciunt incidunt consectetur magni cumque libero molestiae maxime aspernatur tempora. Veritatis, maiores voluptas! Similique sequi ipsam placeat, fuga tenetur nam cupiditate quo ducimus culpa, quam laboriosam omnis architecto rem dicta modi tempore quos, blanditiis dignissimos qui sunt. Veritatis repudiandae ullam, officia voluptatem dolores iusto dicta sit at beatae aliquid esse voluptas, magni iste suscipit temporibus in.",
         "rating": 3
     },
     {
         "name": "Gerda",
-        "content": "Lorem Ipsum",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ea voluptates minus? Et vitae vel fugit iusto ipsam, qui nobis!",
         "rating": 4.5
     },
     {
         "name": "Joost",
-        "content": "Lorem Ipsum",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
         "rating": 1
     }
 ]

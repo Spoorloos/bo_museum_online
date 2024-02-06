@@ -13,7 +13,8 @@
         "hero_text": "Geluid. Licht. Beweging. Onze zintuigen registreren veranderingen in onze omgeving voordat we het doorhebben. Onbewust. Instinctief. Geen intentie, noch controle. Het zijn reacties die teruggaan naar hoe het menselijk lichaam is geprogrammeerd. Kunst prikkelt de zintuigen, communiceert ideeën, emoties en verhalen; beweegt onze blik en brengt ons nieuwe perspectieven.",
         "purchase": "Koop kaarten",
         "reviews": {
-            "show_more": "laat meer zien"
+            "show_more": "laat meer zien",
+            "hide": "verbergen"
         }
     },
     "about_us": [

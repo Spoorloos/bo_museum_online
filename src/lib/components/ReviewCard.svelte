@@ -33,7 +33,7 @@
         class="show-more"
         disabled={!isLargeReview}
         on:click={ () => showMore = !showMore }
-    >{ $_("home.reviews.show_more") }</button>
+    >{ showMore ? $_("home.reviews.hide") : $_("home.reviews.show_more") }</button>
 </div>
 
 

@@ -21,6 +21,7 @@
                     <div class="ticket-quantity">{ $_("tickets.quantity") }</div>
                 </div>
     
+                
                 <div id="ticket-selection-list">
                     {#each tickets as { name, price }}
                         <div class="ticket-card">
