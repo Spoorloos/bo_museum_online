@@ -57,7 +57,7 @@
     #tickets-page-content {
         padding: var(--page-spacing);
         box-sizing: border-box;
-        height: calc(100dvh - var(--header-height) - var(--page-spacing)*2);
+        height: calc(100vh - var(--header-height) - var(--page-spacing)*2);
     }
 
     h1 {
