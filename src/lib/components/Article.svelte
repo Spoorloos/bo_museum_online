@@ -48,7 +48,6 @@
 
     p {
         margin: 0;
-        font-family: 'Segoe UI';
         font-weight: 350;
         font-size: 1.2rem;
     }

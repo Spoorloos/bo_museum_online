@@ -57,8 +57,7 @@
     #tickets-page-content {
         padding: var(--page-spacing);
         box-sizing: border-box;
-        height: calc(100vh - var(--header-height) - var(--page-spacing)*2);
-        font-family: Segoe UI;
+        height: calc(100dvh - var(--header-height) - var(--page-spacing)*2);
     }
 
     h1 {
@@ -100,7 +99,6 @@
         width: 100%;
         display: flex;
         align-items: center;
-        font-family: "Segoe UI";
     }
 
     .ticket-name {

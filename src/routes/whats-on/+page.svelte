@@ -105,7 +105,6 @@
     #whats-on-page-content {
         padding: var(--page-spacing);
         box-sizing: border-box;
-        font-family: Segoe UI;
     }
 
     .content {

@@ -44,7 +44,6 @@
         display: flex;
         padding: var(--page-spacing);
         gap: var(--page-spacing);
-        font-family: 'Segoe UI';
 
         & > div {
             width: 50%;

@@ -13,7 +13,6 @@
         flex-direction: column;
         align-items: center;
         width: 50%;
-        font-family: "Segoe UI";
         position: relative;
         left: 50%;
         translate: -50%;

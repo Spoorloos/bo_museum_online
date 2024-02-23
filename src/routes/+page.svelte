@@ -56,7 +56,7 @@
         display: flex;
         flex-direction: column;
         gap: var(--page-spacing);
-        height: calc(100vh - var(--header-height));
+        height: calc(100dvh - var(--header-height));
         padding: var(--page-outer-padding);
         padding-bottom: var(--page-spacing);
         box-sizing: border-box;
@@ -81,7 +81,6 @@
         display: flex;
 
         & > span {
-            font-family: 'Segoe UI';
             font-size: 1.3rem;
             font-weight: 100;
             line-height: 18px;

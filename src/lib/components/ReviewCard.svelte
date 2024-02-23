@@ -45,7 +45,6 @@
     .review-card {
         height: 100%;
         position: relative;
-        font-family: Segoe UI;
     }
 
     .top {

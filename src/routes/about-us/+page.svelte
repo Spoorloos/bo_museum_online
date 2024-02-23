@@ -26,7 +26,6 @@
     #about-us-page-content {
         padding: var(--page-spacing);
         box-sizing: border-box;
-        font-family: Segoe UI;
     }
 
     #articles {
